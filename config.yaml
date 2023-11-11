@@ -30,6 +30,7 @@ params:
   DateFormat: "January 2, 2006"
   ShowReadingTime: true
   ShowShareButtons: true
+  ShareButtons: ["linkedin", "twitter", "whatsapp"]
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: false
