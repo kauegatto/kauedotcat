@@ -1,7 +1,7 @@
 ---
 title: "RabbitMQ com Java e Spring : Começando (pt. 1)"
 date: 2023-11-12T16:30:03+00:00
-# weight: 1
+weight: 2
 # aliases: ["/first"]
 tags: ["SPRING","JAVA","RABBITMQ"]
 showToc: true
