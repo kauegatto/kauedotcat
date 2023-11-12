@@ -89,9 +89,6 @@ params:
     URL: "https://github.com/kauegatto/kaeudotcat/content"
     Text: "Faça Sugestões" # edit text
     appendFilePath: true # to append file path to Edit link
-
-  # for search
-  # https://fusejs.io/api/options.html
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
@@ -122,7 +119,7 @@ languages:
               url: archives
               weight: 5
             - name: Buscar
-              url: busca
+              url: search/
               weight: 5
     en:
         languageName: "English"
