@@ -61,8 +61,6 @@ params:
     enabled: true # needs to be explicitly set
     subtitle: "Seja bem vindo ao meu blog, aprendizados de um dev que curte arquitetura de software e cerveja!"
     imageUrl: "https://avatars.githubusercontent.com/u/13698473?v=4"
-    imageWidth: 120
-    imageHeight: 120
     imageTitle: Eu!
     buttons:
       - name: Posts
