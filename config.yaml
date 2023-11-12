@@ -69,17 +69,6 @@ params:
         url: posts
       - name: Tags
         url: tags
-  menu:
-    main:
-      - name: Archive
-        url: archives
-        weight: 5
-      - name: Search
-        url: search/
-        weight: 10
-      - name: Tags
-        url: tags/
-        weight: 10
   socialIcons:
     - name: github
       url: "https://github.com/kauegatto"  
@@ -115,7 +104,10 @@ pygmentsUseClasses: true
 markup:
   highlight:
     noClasses: false
-
+outputs:
+  home:
+    - HTML
+    - JSON
 languages:
     pt:
         languageName: "Português (Brasil)"
@@ -129,6 +121,9 @@ languages:
             - name: Arquivo
               url: archives
               weight: 5
+            - name: Buscar
+              url: busca
+              weight: 5
     en:
         languageName: "English"
         weight: 1
@@ -141,6 +136,9 @@ languages:
           main:
             - name: Archive
               url: archives/
+              weight: 5
+            - name: Search
+              url: search/
               weight: 5
         params:
           profileMode:
