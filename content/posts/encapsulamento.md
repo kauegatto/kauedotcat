@@ -3,7 +3,7 @@ title: "Encapsulamento: O Básico que todo jr. precisa saber!"
 date: 2023-11-12T16:30:03+00:00
 # weight: 1
 # aliases: ["/first"]
-tags: ["SOLID","OOP","ARCHITECTURE"]
+tags: ["SOLID","POO","ARCHITECTURE"]
 showToc: true
 TocOpen: false
 draft: false
