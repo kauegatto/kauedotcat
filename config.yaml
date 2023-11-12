@@ -124,18 +124,11 @@ languages:
           category: Categorias
           tag: tags
           series: series
-        params:
-          menu:
-              main:
-                  - name: Arquivo
-                    url: archives
-                    weight: 5
-                  - name: Buscar
-                    url: search/
-                    weight: 10
-                  - name: Tags
-                    url: tags/
-                    weight: 10
+        menu:
+          main:
+            - name: Arquivo
+              url: archives
+              weight: 5
     en:
         languageName: "English"
         weight: 1
@@ -144,19 +137,14 @@ languages:
           category: Categories
           tag: Tags
           series: Series
+        menu:
+          main:
+            - name: Archive
+              url: archives/
+              weight: 5
         params:
           profileMode:
               enabled: true
+              imageUrl: "https://avatars.githubusercontent.com/u/13698473?v=4"
               title: Kaue Gatto - Software Engineer
-              subtitle: "Coding adventures of a developer which is addicted in software development and architecture"
-          menu:
-              main:
-                  - name: Archive
-                    url: archives/
-                    weight: 5
-                  - name: Tags
-                    url: tags
-                    weight: 10
-                  - name: Categories
-                    url: categories
-                    weight: 10
+              subtitle: "Coding adventures of a developer which is addicted in software development and architecture. Still WIP of parsing my texts to english"
