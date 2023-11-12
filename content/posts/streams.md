@@ -1,7 +1,7 @@
 ---
 title: "Streams em JAVA: Tudo que você precisa saber"
 date: 2023-11-12T16:30:03+00:00
-# weight: 1
+weight: 2
 # aliases: ["/first"]
 tags: ["JAVA","STREAMS"]
 showToc: true
