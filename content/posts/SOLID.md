@@ -1,7 +1,7 @@
 ---
 title: "SOLID! Um Post Aprofundado"
 date: 2023-11-12T16:30:03+00:00
-# weight: 1
+weight: 1
 # aliases: ["/first"]
 tags: ["SOLID","OOP","ARCHITECTURE"]
 showToc: true
