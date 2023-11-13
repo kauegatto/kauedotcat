@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Series on Kaue Gatto</title>
+    <link>https://kaue.cat/series/</link>
+    <description>Recent content in Series on Kaue Gatto</description>
+    <image>
+      <title>Kaue Gatto</title>
+      <url>https://kaue.cat/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://kaue.cat/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 13 Nov 2023 12:55:03 +0000</lastBuildDate><atom:link href="https://kaue.cat/series/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Arquitetura de Software</title>
+      <link>https://kaue.cat/series/arquitetura-de-software/</link>
+      <pubDate>Mon, 13 Nov 2023 12:55:03 +0000</pubDate>
+      
+      <guid>https://kaue.cat/series/arquitetura-de-software/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RabbitMQ com SPRING</title>
+      <link>https://kaue.cat/series/rabbitmq-com-spring/</link>
+      <pubDate>Sun, 12 Nov 2023 19:30:03 +0000</pubDate>
+      
+      <guid>https://kaue.cat/series/rabbitmq-com-spring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Features da Linguagem JAVA</title>
+      <link>https://kaue.cat/series/features-da-linguagem-java/</link>
+      <pubDate>Sun, 12 Nov 2023 16:30:03 +0000</pubDate>
+      
+      <guid>https://kaue.cat/series/features-da-linguagem-java/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

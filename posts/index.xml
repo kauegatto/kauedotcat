@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Kaue Gatto</title>
+    <link>https://kaue.cat/posts/</link>
+    <description>Recent content in Posts on Kaue Gatto</description>
+    <image>
+      <title>Kaue Gatto</title>
+      <url>https://kaue.cat/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://kaue.cat/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 13 Nov 2023 12:55:03 +0000</lastBuildDate><atom:link href="https://kaue.cat/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WIP - Arquitetura de Software Básica</title>
+      <link>https://kaue.cat/posts/software-architecture-basics/</link>
+      <pubDate>Mon, 13 Nov 2023 12:55:03 +0000</pubDate>
+      
+      <guid>https://kaue.cat/posts/software-architecture-basics/</guid>
+      <description>O básico que você como dev precisa conhecer de arquitetura de software! Maior e mais denso post, mas também o mais rico.</description>
+    </item>
+    
+    <item>
+      <title>SOLID! Um Post Aprofundado</title>
+      <link>https://kaue.cat/posts/solid/</link>
+      <pubDate>Sun, 12 Nov 2023 16:30:03 +0000</pubDate>
+      
+      <guid>https://kaue.cat/posts/solid/</guid>
+      <description>Um post aprofundado sobre SOLID, com inúmeros exemplos de código e com um aprofundamento maior que o normal.</description>
+    </item>
+    
+    <item>
+      <title>RabbitMQ com Java e Spring : Entendendo de verdade e com um toque de elegância (parte 2)</title>
+      <link>https://kaue.cat/posts/java_rabbitmq_parte2/</link>
+      <pubDate>Sun, 12 Nov 2023 19:30:03 +0000</pubDate>
+      
+      <guid>https://kaue.cat/posts/java_rabbitmq_parte2/</guid>
+      <description>RabbitMQ é uma das principais soluções para envio de mensagens assíncronas na indústria, vamos entender o que é o protocolo AMQP e começar a implementar essa ferramenta com muitos exemplos em JAVA</description>
+    </item>
+    
+    <item>
+      <title>RabbitMQ com Java e Spring : Começando (pt. 1)</title>
+      <link>https://kaue.cat/posts/java_rabbitmq_parte1/</link>
+      <pubDate>Sun, 12 Nov 2023 16:30:03 +0000</pubDate>
+      
+      <guid>https://kaue.cat/posts/java_rabbitmq_parte1/</guid>
+      <description>RabbitMQ é uma das principais soluções para envio de mensagens assíncronas na indústria, vamos entender o que é o protocolo AMQP e começar a implementar essa ferramenta com muitos exemplos em JAVA</description>
+    </item>
+    
+    <item>
+      <title>Streams em JAVA: Tudo que você precisa saber</title>
+      <link>https://kaue.cat/posts/streams/</link>
+      <pubDate>Sun, 12 Nov 2023 16:30:03 +0000</pubDate>
+      
+      <guid>https://kaue.cat/posts/streams/</guid>
+      <description>Streams é um dos conceitos mais temidos e fundamentais da linguagem JAVA, mas não é tão difícil quanto parece, e aprender vai deixar seu código bem melhor, confira :)</description>
+    </item>
+    
+    <item>
+      <title>Encapsulamento: O Básico que todo jr. precisa saber!</title>
+      <link>https://kaue.cat/posts/encapsulamento/</link>
+      <pubDate>Sun, 12 Nov 2023 16:30:03 +0000</pubDate>
+      
+      <guid>https://kaue.cat/posts/encapsulamento/</guid>
+      <description>Encapsulamento é um conceito básico da OOP, mas muitas vezes pensado ou ensinado de maneira errada, vamos discutir esse conceito!</description>
+    </item>
+    
+    <item>
+      <title>Features e Refactors Seguros com Java e SPRING: 2 dicas simples!</title>
+      <link>https://kaue.cat/posts/refactors_seguros/</link>
+      <pubDate>Sun, 12 Nov 2023 16:30:03 +0000</pubDate>
+      
+      <guid>https://kaue.cat/posts/refactors_seguros/</guid>
+      <description>Refactors nem sempre são confortáveis de se fazer, principalmente em pontos ou sistemas críticos, ao mexer nesses pontos, é sempre bom ter um plano B</description>
+    </item>
+    
+    <item>
+      <title>Como eu fiz meu blog!</title>
+      <link>https://kaue.cat/posts/ola_mundo/</link>
+      <pubDate>Sat, 11 Nov 2023 11:30:03 +0000</pubDate>
+      
+      <guid>https://kaue.cat/posts/ola_mundo/</guid>
+      <description>Aprenda como consegui construir e deployar um blog em poucas horas.</description>
+    </item>
+    
+  </channel>
+</rss>

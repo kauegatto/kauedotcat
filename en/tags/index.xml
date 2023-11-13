@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on Kaue Gatto - Software Engineer</title>
+    <link>https://kaue.cat/en/tags/</link>
+    <description>Recent content in Tags on Kaue Gatto - Software Engineer</description>
+    <image>
+      <title>Kaue Gatto - Software Engineer</title>
+      <url>https://kaue.cat/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://kaue.cat/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 12 Nov 2023 16:30:03 +0000</lastBuildDate><atom:link href="https://kaue.cat/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ARCHITECTURE</title>
+      <link>https://kaue.cat/en/tags/architecture/</link>
+      <pubDate>Sun, 12 Nov 2023 16:30:03 +0000</pubDate>
+      
+      <guid>https://kaue.cat/en/tags/architecture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OOP</title>
+      <link>https://kaue.cat/en/tags/oop/</link>
+      <pubDate>Sun, 12 Nov 2023 16:30:03 +0000</pubDate>
+      
+      <guid>https://kaue.cat/en/tags/oop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SOLID</title>
+      <link>https://kaue.cat/en/tags/solid/</link>
+      <pubDate>Sun, 12 Nov 2023 16:30:03 +0000</pubDate>
+      
+      <guid>https://kaue.cat/en/tags/solid/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

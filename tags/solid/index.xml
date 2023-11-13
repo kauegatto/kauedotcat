@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>SOLID on Kaue Gatto</title>
+    <link>https://kaue.cat/tags/solid/</link>
+    <description>Recent content in SOLID on Kaue Gatto</description>
+    <image>
+      <title>Kaue Gatto</title>
+      <url>https://kaue.cat/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://kaue.cat/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 12 Nov 2023 16:30:03 +0000</lastBuildDate><atom:link href="https://kaue.cat/tags/solid/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SOLID! Um Post Aprofundado</title>
+      <link>https://kaue.cat/posts/solid/</link>
+      <pubDate>Sun, 12 Nov 2023 16:30:03 +0000</pubDate>
+      
+      <guid>https://kaue.cat/posts/solid/</guid>
+      <description>Um post aprofundado sobre SOLID, com inúmeros exemplos de código e com um aprofundamento maior que o normal.</description>
+    </item>
+    
+    <item>
+      <title>Encapsulamento: O Básico que todo jr. precisa saber!</title>
+      <link>https://kaue.cat/posts/encapsulamento/</link>
+      <pubDate>Sun, 12 Nov 2023 16:30:03 +0000</pubDate>
+      
+      <guid>https://kaue.cat/posts/encapsulamento/</guid>
+      <description>Encapsulamento é um conceito básico da OOP, mas muitas vezes pensado ou ensinado de maneira errada, vamos discutir esse conceito!</description>
+    </item>
+    
+  </channel>
+</rss>

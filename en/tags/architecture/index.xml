@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ARCHITECTURE on Kaue Gatto - Software Engineer</title>
+    <link>https://kaue.cat/en/tags/architecture/</link>
+    <description>Recent content in ARCHITECTURE on Kaue Gatto - Software Engineer</description>
+    <image>
+      <title>Kaue Gatto - Software Engineer</title>
+      <url>https://kaue.cat/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://kaue.cat/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 12 Nov 2023 16:30:03 +0000</lastBuildDate><atom:link href="https://kaue.cat/en/tags/architecture/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>(WIP) Encapsulation: The Basics Every Junior Developer Needs to Know!</title>
+      <link>https://kaue.cat/en/posts/encapsulation/</link>
+      <pubDate>Sun, 12 Nov 2023 16:30:03 +0000</pubDate>
+      
+      <guid>https://kaue.cat/en/posts/encapsulation/</guid>
+      <description>Encapsulation is a fundamental concept in OOP, often misunderstood or incorrectly taught. Let&amp;#39;s discuss this concept!</description>
+    </item>
+    
+  </channel>
+</rss>

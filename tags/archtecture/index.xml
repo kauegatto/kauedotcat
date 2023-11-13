@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ARCHTECTURE on Kaue Gatto</title>
+    <link>https://kaue.cat/tags/archtecture/</link>
+    <description>Recent content in ARCHTECTURE on Kaue Gatto</description>
+    <image>
+      <title>Kaue Gatto</title>
+      <url>https://kaue.cat/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://kaue.cat/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 13 Nov 2023 12:55:03 +0000</lastBuildDate><atom:link href="https://kaue.cat/tags/archtecture/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WIP - Arquitetura de Software Básica</title>
+      <link>https://kaue.cat/posts/software-architecture-basics/</link>
+      <pubDate>Mon, 13 Nov 2023 12:55:03 +0000</pubDate>
+      
+      <guid>https://kaue.cat/posts/software-architecture-basics/</guid>
+      <description>O básico que você como dev precisa conhecer de arquitetura de software! Maior e mais denso post, mas também o mais rico.</description>
+    </item>
+    
+  </channel>
+</rss>

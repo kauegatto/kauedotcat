@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on Kaue Gatto</title>
+    <link>https://kaue.cat/tags/</link>
+    <description>Recent content in Tags on Kaue Gatto</description>
+    <image>
+      <title>Kaue Gatto</title>
+      <url>https://kaue.cat/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://kaue.cat/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 13 Nov 2023 12:55:03 +0000</lastBuildDate><atom:link href="https://kaue.cat/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ARCHTECTURE</title>
+      <link>https://kaue.cat/tags/archtecture/</link>
+      <pubDate>Mon, 13 Nov 2023 12:55:03 +0000</pubDate>
+      
+      <guid>https://kaue.cat/tags/archtecture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DDD</title>
+      <link>https://kaue.cat/tags/ddd/</link>
+      <pubDate>Mon, 13 Nov 2023 12:55:03 +0000</pubDate>
+      
+      <guid>https://kaue.cat/tags/ddd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Microservices</title>
+      <link>https://kaue.cat/tags/microservices/</link>
+      <pubDate>Mon, 13 Nov 2023 12:55:03 +0000</pubDate>
+      
+      <guid>https://kaue.cat/tags/microservices/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OOP</title>
+      <link>https://kaue.cat/tags/oop/</link>
+      <pubDate>Mon, 13 Nov 2023 12:55:03 +0000</pubDate>
+      
+      <guid>https://kaue.cat/tags/oop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>JAVA</title>
+      <link>https://kaue.cat/tags/java/</link>
+      <pubDate>Sun, 12 Nov 2023 19:30:03 +0000</pubDate>
+      
+      <guid>https://kaue.cat/tags/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RABBITMQ</title>
+      <link>https://kaue.cat/tags/rabbitmq/</link>
+      <pubDate>Sun, 12 Nov 2023 19:30:03 +0000</pubDate>
+      
+      <guid>https://kaue.cat/tags/rabbitmq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SPRING</title>
+      <link>https://kaue.cat/tags/spring/</link>
+      <pubDate>Sun, 12 Nov 2023 19:30:03 +0000</pubDate>
+      
+      <guid>https://kaue.cat/tags/spring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ARCHITECTURE</title>
+      <link>https://kaue.cat/tags/architecture/</link>
+      <pubDate>Sun, 12 Nov 2023 16:30:03 +0000</pubDate>
+      
+      <guid>https://kaue.cat/tags/architecture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BACKEND</title>
+      <link>https://kaue.cat/tags/backend/</link>
+      <pubDate>Sun, 12 Nov 2023 16:30:03 +0000</pubDate>
+      
+      <guid>https://kaue.cat/tags/backend/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>POO</title>
+      <link>https://kaue.cat/tags/poo/</link>
+      <pubDate>Sun, 12 Nov 2023 16:30:03 +0000</pubDate>
+      
+      <guid>https://kaue.cat/tags/poo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SOLID</title>
+      <link>https://kaue.cat/tags/solid/</link>
+      <pubDate>Sun, 12 Nov 2023 16:30:03 +0000</pubDate>
+      
+      <guid>https://kaue.cat/tags/solid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>STREAMS</title>
+      <link>https://kaue.cat/tags/streams/</link>
+      <pubDate>Sun, 12 Nov 2023 16:30:03 +0000</pubDate>
+      
+      <guid>https://kaue.cat/tags/streams/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blog</title>
+      <link>https://kaue.cat/tags/blog/</link>
+      <pubDate>Sat, 11 Nov 2023 11:30:03 +0000</pubDate>
+      
+      <guid>https://kaue.cat/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
