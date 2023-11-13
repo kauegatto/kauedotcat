@@ -11,7 +11,7 @@ buildDrafts: true
 buildFuture: false
 buildExpired: false
 enableEmoji: true
-disqusShortname: kauegatto
+disqusShortname: www-kaue-cat
 
 googleAnalytics: UA-123-45
 
