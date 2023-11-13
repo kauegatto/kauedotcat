@@ -1,13 +1,13 @@
 ---
-title: "WIP - Arquitetura de Software Básica"
+title: "Arquitetura de Software para devs: MVC, Hexagonal, DDD"
 date: 2023-11-13T12:55:03+00:00
 weight: 1
 aliases: ["/arquitetura"]
 tags: ["ARCHITECTURE","OOP","Microservices", "DDD"]
-series: ["Arquitetura de Software"]
+series: ["Arquitetura"]
 showToc: true
 TocOpen: false
-draft: true
+draft: false
 hidemeta: false
 comments: true
 description: "O básico que você como dev precisa conhecer de arquitetura de software! Maior e mais denso post, mas também o mais rico."
@@ -23,58 +23,25 @@ ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 cover:
-    image: "<image path/url>" # image path/url
-    alt: "<alt text>" # alt text
-    caption: "<text>" # display caption under cover
+    image: "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/k9l7tsfne0qynrhvk1x7.png" # image path/url
+    alt: "Camadas comuns em uma aplicação que segue Domain Driven Design" # alt text
+    caption: "Camadas comuns em uma aplicação que segue Domain Driven Design" # display caption under cover
     relative: false # when using page bundles set this to true
-    hidden: true # only hide on current single page
+    hidden: false # only hide on current single page
 editPost:
     URL: "https://github.com/kauegatto/kauedotcat/content"
     Text: "Sugerir Alterações" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
-# Arquitetura de Software - O básico
+# Arquitetura à nivel de Software:
+Refere-se à organização e definição de regras a serem seguidas no seu projeto em si, seja ele um microserviço, monolito ou qualquer outra parte de uma solução maior, nossa ênfase está no nível do seu serviço, um serviço seu pode seguir à risca SOLID, arquitetura hexagonal e uma PoC pode seguir o famoso: faz rápido e funcionando.
 
-> Disclaimer: É impossível tratar bem todos os tipos de arquitetura e falar muito sobre arquitetura aqui, o foco desse “Caderno” pessoal não é esse, apesar disso, você provavelmente vai encontrar um bom conteúdo (ao menos introdutório) em partes do design de software e arquitetura que julgo importante.
-
-Esse capítulo é de longe o maior e com uma leitura mais densa, mas segundo a minha visão vale bastante a pena!!
-
-Se você quer mais aprofundamento em alguma arquitetura, ou até mesmo focar bastante nisso, olhe as referências. O blog do Herberto Graça é meu way-to-go. através da série “The software architecture chronicles”
-> 
-
-# Arquitetura à Nível de Solução
-
-## Monolítos:
-
-Monolítos são basicamente um conjunto de soluções de software agrupadas, de maneiras a qual essas soluções estão **acopladas** por meio de coisas como a própria Linguagem de Programação ou no Deployment, se você, após uma alteração em um ponto específico de uma solução, precisa deployar outros módulos da sua aplicação, eles são monolítos, mesmo que sejam modularizados. Sistemas monolítos basicamente são um “tudo ou nada”, onde, se você necessitar subir o módulo de tickets, vai precisar subir o módulo de email também, pois eles estão acoplados.
-
-> ***With a monolithic application, if I want to try a new programming language, database, or framework, any change will impact a large amount of my system. With a system consisting of multiple services, I have multiple new places in which to try out a new piece of technology. I can pick a service that is perhaps lowest risk and use the technology there, knowing that I can limit any potential negative impact*
-
-Building Microservices. Newman, Sam**
-> 
-
-## Service-Oriented Architecture
-
-Wip!
-
-> ***Much has been said about SOA, and there are a few different implementation patterns but, in essence, SOA focuses on only a few concepts and doesn’t give any prescription on how to implement them: 
-Composability of user-facing applications, Reusable Business Services, Technology stack independent, Autonomy (independent evolution, scalability & deployability).***
-
-**[Service Oriented Architecture.](https://herbertograca.com/2017/11/09/service-oriented-architecture-soa/) Graça, Herberto**
-> 
-
-## Microserviços
-
-> ***[Microservices are] Small autonomous services that work together, modelled around a business domain.*
-
-[Principles Of Microservices](https://youtu.be/PFQnNFe27kU?t=1m50s), Newman, Sam.**
-> 
-
-# Arquitetura à nível de Software
-
+De outro lado, cuidando e decidindo se temos SOA, Microserviços, Monolitos ou qual protocolo de comunicação usamos, temos a arquitetura de soluções, o que não é o foco do artigo
 ## Modelo Baseado em Camadas
 
-É bem comum dividirmos nosso software em camadas, é o que fazemos na maior parte das arquiteturas de software modernas, essa divisão tem como objetivo separar partes do código que não devem interagir muito entre si exceto por alguns pontos de contato (que podem ser outras camadas), e também garantir que exista um “meio de campo” entre certas camadas, ou seja, a interface não vai falar diretamente com o banco de dados, existe um caminho para isso.
+É bem comum dividirmos nosso software em camadas, é o que fazemos na maior parte das arquiteturas de software modernas, essa divisão tem como objetivo separar partes do código que não devem interagir muito entre si exceto por alguns pontos de contato (que podem ser outras camadas), e também garantir que exista um “meio de campo” entre certas camadas, ou seja, a interface não vai falar diretamente com o banco de dados, existe um caminho para isso. 
+
+Um dos pontos negativos desses modelos é que eles não costumam definir a obrigação ou sugestão de interfaces para comunicação com serviços externos, normalmente services são totalmente acoplados à infraestrutura, em alguns casos, até mesmo temos DAO’s que implementam regras de persistência na camada de modelo. O problema disso é claro, nossas regras de negócio muitas vezes acabam acopladas à meras ferramentas, trocar o banco de dados exige que você mexa em um pedaço que deveria representar sua regra de negócio, o que não acontece em outros modelos como arquitetura hexagonal (a menos que você adapte seu padrão em camadas para ter abstrações significativas, o que é totalmente válido 🙂). 
 
 ### MVC
 
@@ -89,6 +56,8 @@ The main thrust of the Model/View/ViewModel architecture seems to be that on top
 > 
 
 ## Arquitetura Hexagonal - Ports And Adapters
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/givfldzlj01691cl5dn8.png)
 
 A arquitetura hexagonal é uma proposta de arquitetura de software que segue lógicas de desenvolvimento de software que pensam em acoplamento e coesão, basicamente, módulos de alto nível (que possuem regras de negócio) não devem depender de implementações de módulos de baixo nível (frameworks, bibliotecas de terceiros, et cetera.). Tudo que acessa o coração / domínio / regra de negócio da sua aplicação deve passar por portas, que são basicamente interfaces que representam o que aquela biblioteca fará para você, chamamos a implementação dessas interfaces de adaptadores. 
 
@@ -118,21 +87,21 @@ O Adaptador, que é basicamente uma das opções de notificadores que vc tem é 
 
 Imagine que você está indo viajar, o núcleo da aplicação é o conteúdo essencial da sua mala - os itens vitais que você não pode deixar para trás. Os adaptadores são os diversos compartimentos e bolsos especializados na mala, cada um projetado para acomodar diferentes necessidades, você tem um plugue para tomadas da europa, outros para os estados unidos e outra que suporta o padrão adotado na ásia (não sei nem se é diferente). Da mesma forma, os adaptadores na arquitetura hexagonal conectam o núcleo da aplicação a interfaces externas variadas, como bancos de dados, interfaces de usuário e serviços externos, esses adaptadores permitem que a aplicação funcione em ambientes diversos. 
 
-![Hexagonal](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/a22fpgbhkto3xwvsi5mr.png)
+
 
 ## Clean Architecture
 
 Não entrarei em detalhes pela sua complexidade e individualidades, mas saiba que tanto a clean architecture quanto a onion se baseiam no mesmo fundamento, de proteger a camada de domínio, com os mesmos princípios de abstração por interfaces, e adaptadores implementando-as
 
-## DDD - Isso não é sobre DDD
+# DDD - Isso não é sobre DDD
 
-O DDD é um conceito extenso e vai além de um sugestões sobre como dividir seu código em camadas (esse nem é o foco), comentando a maneira com que o software é escrito, o que são fronteiras e como elas devem ser implementadas, etc. 
+O Deisgn orientado à Domínio (Domain Driven Design / DDD) é um conceito extenso e vai além de um sugestões sobre como dividir seu código em camadas (esse nem é o foco), comentando a maneira com que o software é escrito, a linguagem utilizada no processo de fabricação, o que são as fronteiras entre suas entidades e regras de negócio e como elas devem ser implementadas, realmente fazendo com que a preocupação de domínio seja a central na construção de software. 
 
 Encare o DDD como uma *prescrição de metodologia e **processo*** para o desenvolvimento de sistemas complexos cujo foco é mapear atividades, tarefas, eventos e dados dentro de um  domínio de problema nos artefatos de tecnologia de um domínio de solução.
 
 Apesar disso, **Evans em seu livro deu diversas sugestões arquiteturais, como por exemplo, os services,** muitas vezes, mal utilizados ou interpretados. Veremos agora algumas sugestões e pontos do autor.
 
-### DDD - Sugestões Arquiteturais → e de design de código
+## DDD - Sugestões Arquiteturais → e de design de código
 
 Antes de tudo, acho importante definir o que é o domínio de uma aplicação:
 
@@ -147,18 +116,21 @@ Quando o código relacionado **ao domínio** é distribuído por uma porção t�
 **Isole o modelo do domínio e a lógica de negócios e elimine qualquer dependência que eles possam ter na infraestrutura, na interface do usuário ou mesmo na lógica do aplicativo que não seja lógica de negócios. 
 Particione um programa complexo em camadas. Desenvolva um design dentro de cada camada que seja coeso e que dependa apenas das camadas abaixo.** Concentre todo o código relacionado ao modelo do domínio em uma camada e isole-o do código da interface do usuário, do aplicativo e da infraestrutura. Os objetos de domínio, livres da responsabilidade de se exibir, de se armazenar, de gerenciar tarefas do aplicativo, e assim por diante, podem se concentrar em expressar o modelo do domínio. Isso permite que um modelo evolua para se tornar rico e limpo o suficiente para capturar o conhecimento essencial do negócio e colocá-lo para funcionar, sempre que uma regra de negócio surgir, o modelo de domínio deve ser o necessário por implementá-la, quem deve se adaptar às regras de negócio é a implementação, e nunca o contrário.
 
-![Layers in a DDD architecture](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/phu7ce3a1l0cb1qo5fgg.png)
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ezp1csg5vz7dgso6mqaj.png)
 
 **Dito isso, colocar as responsabilidades certas no domínio não significa que o modelo deve ser anêmico, o modelo pode (e deve) manter regras e formas para que seu escopo seja válido. Ou seja, fazemos o possível para que uma entidade de domínio nasça e continue sempre de acordo com suas regras de negócio.**
 
-> Conceito muito difundido no artigo **Anemic Domain Model, de Martin Fowler. 
+## Modelos Anêmicos - Um problema
 
-Q**uando falamos de modelos de domínio anêmicos dizemos de modelos onde as regras de negócio muitas vezes fogem das classes de domínio, temos uma classe pedido mas o método para verificar se o pedido contém itens ou não está em um service (normalmente em um application service, ou seja, na camada de aplicação). 
+Conceito muito difundido no artigo **Anemic Domain Model, de Martin Fowler.** 
+
+Quando falamos de modelos de domínio anêmicos dizemos de modelos onde as regras de negócio associadas à uma entidade é externa à própria entidade. Temos uma classe pedido mas o método para verificar se o pedido contém itens ou não está em um “service”, que acaba sendo uma classe que possui regras que poderiam existir dentro de uma própria entidade (se contiver somente o seu comportamento). 
+
 Classes que possuem somente atributos são classes de domínio anêmicas, idealmente, uma classe deve conter comportamento e atributos.
-> 
-> 
-> ![Domain Entity](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2fj54fsrz9aj03rl1648.png)
-> 
+
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/bc8uq0g0tkliwqa8jdqx.png)
 
 Podemos chamar classes JAVA ou C# que são totalmente desacoplada de outras bibliotecas ou framewrks de POCO (no C#) ou POJO (no JAVA). Por serem códigos puros escritos em java ou  c#, que não deviram de uma classe base e nem retornam ou utilizam de tipos especiais, ou seja, são classes simples que sabem apenas de seu domínio, **devemos sempre seguir os princípios da [ignorância da infraestrutura](https://ayende.com/blog/3137/infrastructure-ignorance) e [ignorância da persistência](https://deviq.com/principles/persistence-ignorance) para essas classes.**
 
@@ -275,8 +247,8 @@ Mas e classes builders? Também não é incomum ver builders que esquecem de imp
 PessoaBuilder pessoaBuilder = new PessoaBuilder(1,"kaue"); // construtor do BUILDER tem em si os parâmetros necessários para criar a classe que constrói
 // se o método para pegar o builder for um método estático, só passar em seu parâmetro
 Pessoa kaue = pessoaBuilder
-	.withPeso(70)
-	.build();
+											 .withPeso(70)
+                       .build();
 ```
 
 Usando o lombok  @Builder, podemos fazer:
@@ -286,7 +258,7 @@ import lombok.Builder;
 
 @Builder(builderMethodName = "hiddenBuilder")
 public class Person {
-	@NotNull
+		@NotNull
     private String name;
     private String surname;
 
@@ -310,9 +282,13 @@ Endereco e = Endereco.builder("Osvaldo Albherto", "Parque Bitaru", "42", "Abilio
 
 Somente lendo esse código, você só consegue ter certeza do complemento e maisInformacoes, os outros campos não são tão visíveis, ainda assim, como opinião pessoal, prefiro por ter esse código, que se torna um pouco menos visível mas garante o uso correto da classe, mostrando erros de compilação na própria IDE caso os atributos obrigatórios não estejam preenchidos. 
 
-### Domínio Rico e dependências excessivas
+## Modelos Ricos: como lidar com dependências excessivas
 
 Se sua classe POJO de domínio necessitar de bibliotecas ou outras dependências (faça-as serem interfaces 🙏), instanciá-la ficará extremamente inconveniente, para isso existe o **Design Pattern: Factory**
+
+### Design Pattern: Factory
+
+F**actories são métodos (ou classes) que possuem como retorno a criação de um outro objeto**, em casos mais simples, podem ser métodos estáticos dentro da própria classe, em casos mais complexos, onde teremos diferentes dependências a serem injetadas nas classes de domínio atráves de  um framework ou container de injeção de dependência, como o Spring faz, podemos usar classes.
 
 Imagine a existência de uma classe usuário, que necessita que seu próprio email seja validado, e para isso, você quer usar uma biblioteca x ou y, você, respeitando princípios básicos, criará uma interface a qual Usuário dependerá, e fará com que a injeção de dependência passe a você uma instância do validador em algum momento, isso irá se tornar **extremamente** inconveniente muito rápido, portanto, podemos fazer:
 
@@ -350,7 +326,7 @@ public class UsuarioFactory {
 }
 ```
 
-### Mas e os Services?
+## E os Services?
 
 Evans Descreve em seu livro três tipos de services:
 
@@ -378,8 +354,19 @@ Evans Descreve em seu livro três tipos de services:
 > Evans - DDD
 > 
 
+**Infrastructure Services**:
+
+- Fornece métodos que permitem a execução de operações sobre a infraestrutura na qual o software está sendo executado. Isso significa que esses serviços tem conhecimento sobre detalhes das implementações concretas da infraestrutura tais como: acesso a bancos de dados, acesso a rede, controle de operações de IO, acesso a hardware etc. Geralmente esse service é utilizado pelos Application Services para complementar e auxiliar suas operações, por exemplo, fornecer um método que permita a criação e controle de um buffer para realizar download de arquivos.
+
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/p94x93xzwh0ggch4xryl.png)
+
+## Contrapontos:
+
 <aside>
-💡 Regardless, if your microservice or Bounded Context is very simple (a CRUD service), the anemic domain model in the form of entity objects with just data properties might be good enough, and it might not be worth implementing more complex DDD patterns. In that case, it will be simply a persistence model, because you have intentionally created an entity with only data for CRUD purposes.
+💡 ***Regardless, if your microservice or Bounded Context is very simple (a CRUD service), the anemic domain model in the form of entity objects with just data properties might be good enough, and it might not be worth implementing more complex DDD patterns. In that case, it will be simply a persistence model, because you have intentionally created an entity with only data for CRUD purposes.***
+
+**[Design a microservice domain model](https://learn.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/microservice-domain-model)** - Microsoft
 
 </aside>
 
@@ -387,11 +374,9 @@ Evans Descreve em seu livro três tipos de services:
  - Microsoft resource
 > 
 
-**Infrastructure Services**:
+Aqui entendemos uma coisa que deve ser clara, não existe bala de prata na computação, faz sentido abstraírmos o SPRING,  Controllers, Services e outras funcionalidades ou entedemos que nossa aplicação nasce acoplada ao SPRING e morre com ele? 
 
-- Fornece métodos que permitem a execução de operações sobre a infraestrutura na qual o software está sendo executado. Isso significa que esses serviços tem conhecimento sobre detalhes das implementações concretas da infraestrutura tais como: acesso a bancos de dados, acesso a rede, controle de operações de IO, acesso a hardware etc. Geralmente esse service é utilizado pelos Application Services para complementar e auxiliar suas operações, por exemplo, fornecer um método que permita a criação e controle de um buffer para realizar download de arquivos.
-
-![Dependency Between Layers](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2vd4gozuukdgr4jhar65.png)
+Aqui, tudo cabe à você entender pontos, contrapontos e o seu contexto, no seu caso. Se sua aplicação só existe junto à infraestrutura de uma biblioteca, talvez não haja motivo para desacoplá-la, se você não vê perspectivas para deixar de usar lombok, não necessariamente precisa fazer seu modelo de domínio POJOS realmente puras use seu lombok, e seja feliz. Um projeto simples ou que necessita ser entregue muito rapidamente não usar de conceitos como Arquitetura Hexagonal, DDD, CQRS ou qualquer outro pattern não se traduz emprojeto simples ou que significa código ruim.
 
 # Referências:
 
@@ -404,3 +389,14 @@ Domain Driven Design, Eric Evans
 [Anemic Domain Model, Martin Fowler (Cosigned by Evans)](https://martinfowler.com/bliki/AnemicDomainModel.html)
 
 Sumário de Padrões e Definições do DDD - Traduzido por Ricardo Pereira Dias
+
+
+[Projetando um microsserviço orientado a DDD](https://learn.microsoft.com/pt-br/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/ddd-oriented-microservice)
+
+https://www.youtube.com/watch?v=1Lcr2c3MVF4
+
+[Persistence Ignorance | DevIQ](https://deviq.com/principles/persistence-ignorance)
+
+[Infrastructure Ignorance](https://ayende.com/blog/3137/infrastructure-ignorance)
+
+[Hexagonal Architecture, DDD, and Spring | Baeldung](https://www.baeldung.com/hexagonal-architecture-ddd-spring)
