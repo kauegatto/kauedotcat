@@ -1,5 +1,5 @@
 ---
-title: "RabbitMQ com Java e Spring : Entendendo de verdade e com um toque de elegância"
+title: "RabbitMQ com Java e Spring : Entendendo de verdade e com um toque de elegância (parte 2)"
 date: 2023-11-12T19:30:03+00:00
 weight: 2
 # aliases: ["/first"]
