@@ -1,5 +1,5 @@
 ---
-title: "WIP - Arquitetura de Software Básics"
+title: "WIP - Arquitetura de Software Básica"
 date: 2023-11-13T12:55:03+00:00
 weight: 1
 aliases: ["/arquitetura"]
@@ -118,7 +118,7 @@ O Adaptador, que é basicamente uma das opções de notificadores que vc tem é 
 
 Imagine que você está indo viajar, o núcleo da aplicação é o conteúdo essencial da sua mala - os itens vitais que você não pode deixar para trás. Os adaptadores são os diversos compartimentos e bolsos especializados na mala, cada um projetado para acomodar diferentes necessidades, você tem um plugue para tomadas da europa, outros para os estados unidos e outra que suporta o padrão adotado na ásia (não sei nem se é diferente). Da mesma forma, os adaptadores na arquitetura hexagonal conectam o núcleo da aplicação a interfaces externas variadas, como bancos de dados, interfaces de usuário e serviços externos, esses adaptadores permitem que a aplicação funcione em ambientes diversos. 
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/38ba7f19-3e81-46c0-8cb2-e6ae4c4a8146/Untitled.png)
+![Hexagonal](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/a22fpgbhkto3xwvsi5mr.png)
 
 ## Clean Architecture
 
@@ -147,7 +147,7 @@ Quando o código relacionado **ao domínio** é distribuído por uma porção t�
 **Isole o modelo do domínio e a lógica de negócios e elimine qualquer dependência que eles possam ter na infraestrutura, na interface do usuário ou mesmo na lógica do aplicativo que não seja lógica de negócios. 
 Particione um programa complexo em camadas. Desenvolva um design dentro de cada camada que seja coeso e que dependa apenas das camadas abaixo.** Concentre todo o código relacionado ao modelo do domínio em uma camada e isole-o do código da interface do usuário, do aplicativo e da infraestrutura. Os objetos de domínio, livres da responsabilidade de se exibir, de se armazenar, de gerenciar tarefas do aplicativo, e assim por diante, podem se concentrar em expressar o modelo do domínio. Isso permite que um modelo evolua para se tornar rico e limpo o suficiente para capturar o conhecimento essencial do negócio e colocá-lo para funcionar, sempre que uma regra de negócio surgir, o modelo de domínio deve ser o necessário por implementá-la, quem deve se adaptar às regras de negócio é a implementação, e nunca o contrário.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fd361783-e992-4657-a1d5-60f40e4e9a29/Untitled.png)
+![Layers in a DDD architecture](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/phu7ce3a1l0cb1qo5fgg.png)
 
 **Dito isso, colocar as responsabilidades certas no domínio não significa que o modelo deve ser anêmico, o modelo pode (e deve) manter regras e formas para que seu escopo seja válido. Ou seja, fazemos o possível para que uma entidade de domínio nasça e continue sempre de acordo com suas regras de negócio.**
 
@@ -157,7 +157,7 @@ Q**uando falamos de modelos de domínio anêmicos dizemos de modelos onde as reg
 Classes que possuem somente atributos são classes de domínio anêmicas, idealmente, uma classe deve conter comportamento e atributos.
 > 
 > 
-> ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ae437797-2db7-4e88-99d0-3b42fcb6f14d/Untitled.png)
+> ![Domain Entity](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2fj54fsrz9aj03rl1648.png)
 > 
 
 Podemos chamar classes JAVA ou C# que são totalmente desacoplada de outras bibliotecas ou framewrks de POCO (no C#) ou POJO (no JAVA). Por serem códigos puros escritos em java ou  c#, que não deviram de uma classe base e nem retornam ou utilizam de tipos especiais, ou seja, são classes simples que sabem apenas de seu domínio, **devemos sempre seguir os princípios da [ignorância da infraestrutura](https://ayende.com/blog/3137/infrastructure-ignorance) e [ignorância da persistência](https://deviq.com/principles/persistence-ignorance) para essas classes.**
@@ -391,7 +391,7 @@ Evans Descreve em seu livro três tipos de services:
 
 - Fornece métodos que permitem a execução de operações sobre a infraestrutura na qual o software está sendo executado. Isso significa que esses serviços tem conhecimento sobre detalhes das implementações concretas da infraestrutura tais como: acesso a bancos de dados, acesso a rede, controle de operações de IO, acesso a hardware etc. Geralmente esse service é utilizado pelos Application Services para complementar e auxiliar suas operações, por exemplo, fornecer um método que permita a criação e controle de um buffer para realizar download de arquivos.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4fa2f09c-c069-4cde-8221-c060f7560e90/Untitled.png)
+![Dependency Between Layers](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2vd4gozuukdgr4jhar65.png)
 
 # Referências:
 

@@ -176,7 +176,7 @@ public class RabbitMqConfiguration {
 
 </aside>
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/f9f3aa45-f67b-42fb-a9fd-ab2167038212/64aa053c-0181-4311-b4df-0b3790254061/Untitled.png)
+![exchange](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/pa9zvwka9l93aimns0bf.png)
 
 Perfeito, já vimos nossa exchange funcionando bonito! Tudo pronto!
 
