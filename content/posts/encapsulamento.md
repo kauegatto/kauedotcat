@@ -113,14 +113,14 @@ O Encapsulamento é basicamente o ato de juntar comportamentos e estados que faz
 
 ```java
 for (Address address : vcard.getAddresses()) {
-                    boolean workAddress = false;
-                    for (AddressType addressType : address.getTypes()) {
-                        if (AddressType.PREF.equals(addressType) || AddressType.WORK.equals(addressType)) {
-                            workAddress = true;
-                            break;
-                        }
-                    }
-                    if (!workAddress) continue;
+	boolean workAddress = false;
+	for (AddressType addressType : address.getTypes()) {
+		if (AddressType.PREF.equals(addressType) || AddressType.WORK.equals(addressType)) {
+			workAddress = true;
+			break;
+		}
+	}
+	if (!workAddress) continue;
 ```
 
 Sem entender muito do código e de seu contexto, já somos capaz de refatorar isso de uma maneira melhor, poderíamos simplesmente usar:
@@ -145,39 +145,39 @@ Métodos privados também podem indicar esse tipo de comportamento, talvez até 
 
 ```java
 private Person createUserAccount(String username, Collection<GrantedAuthority> authorities,PersonAttributesLookup personAttributesLookup) {
-		Person person = null;
+	Person person = null;
 
-		if (hasAccountCreationPermission(authorities)) {
-			person = new Person();
-			person.setEnabled(true);
-			person.setUsername(username);
+	if (hasAccountCreationPermission(authorities)) {
+	person = new Person();
+	person.setEnabled(true);
+	person.setUsername(username);
 
-			try {
-				// Get the Person Attributes to create the person
-				final PersonAttributesResult attr =
-						personAttributesLookup.lookupPersonAttributes(username);
-				person.setSchoolId(attr.getSchoolId());
-				person.setFirstName(attr.getFirstName());
-				person.setLastName(attr.getLastName());
-				person.setPrimaryEmailAddress(attr.getPrimaryEmailAddress());
+	try {
+		// Get the Person Attributes to create the person
+		final PersonAttributesResult attr =
+				personAttributesLookup.lookupPersonAttributes(username);
+		person.setSchoolId(attr.getSchoolId());
+		person.setFirstName(attr.getFirstName());
+		person.setLastName(attr.getLastName());
+		person.setPrimaryEmailAddress(attr.getPrimaryEmailAddress());
 
-				ensureRequiredFieldsForDirectoryPerson(person);
-				person = create(person);
-				externalPersonService.updatePersonFromExternalPerson(person, false);
-				LOGGER.info("Successfully Created Account for {}", username);
+		ensureRequiredFieldsForDirectoryPerson(person);
+		person = create(person);
+		externalPersonService.updatePersonFromExternalPerson(person, false);
+		LOGGER.info("Successfully Created Account for {}", username);
 
-			} catch (final ObjectNotFoundException onfe) {
-				...
-			}
+	} catch (final ObjectNotFoundException onfe) {
+		...
+	}
 ```
 
 Refatorando:
 
 ```java
-				person.setSchoolId(attr.getSchoolId());
-				person.setFirstName(attr.getFirstName());
-				person.setLastName(attr.getLastName());
-				person.setPrimaryEmailAddress(attr.getPrimaryEmailAddress());
+person.setSchoolId(attr.getSchoolId());
+person.setFirstName(attr.getFirstName());
+person.setLastName(attr.getLastName());
+person.setPrimaryEmailAddress(attr.getPrimaryEmailAddress());
 // passa a se tornar
 public Class Person{
 	...
@@ -198,9 +198,9 @@ Somente nessa alteração, já travamos setters que podem não ser interessantes
 Outro ponto de refatoramento em Person é essa parte:
 
 ```java
-		person = new Person();
-		person.setEnabled(true);
-		person.setUsername(username);
+	person = new Person();
+	person.setEnabled(true);
+	person.setUsername(username);
 ```
 
 Talvez os métodos de setEnabled e setUsername sejam necessários, ou seja, não faz sentido criarmos um usuário sem Username e desabilitado, por que isso não faz parte do construtor? Esses setters provavelmente nem deveriam existir, com os atributos setados no próprio construtor. Tratamos isso no capítulo de refatoração 
@@ -209,23 +209,24 @@ O código final poderia ficar:
 
 ```java
 private Person createUserAccount(String username, Collection<GrantedAuthority> authorities,PersonAttributesLookup personAttributesLookup) {
-		Person person = null;
-		if (hasAccountCreationPermission(authorities)) {
-			person = new Person();
-			try {
-				// Get the Person Attributes to create the person
-				final PersonAttributesResult attr =
-						personAttributesLookup.lookupPersonAttributes(username);
-				person.setAttributesBasedOnAttributesResult(attr);
+	Person person = null;
+	if (hasAccountCreationPermission(authorities)) {
+		person = new Person();
+		try {
+			// Get the Person Attributes to create the person
+			final PersonAttributesResult attr =
+					personAttributesLookup.lookupPersonAttributes(username);
+			person.setAttributesBasedOnAttributesResult(attr);
 
-				ensureRequiredFieldsForDirectoryPerson(person);
-				person = create(person);
-				externalPersonService.updatePersonFromExternalPerson(person, false);
-				LOGGER.info("Successfully Created Account for {}", username);
+			ensureRequiredFieldsForDirectoryPerson(person);
+			person = create(person);
+			externalPersonService.updatePersonFromExternalPerson(person, false);
+			LOGGER.info("Successfully Created Account for {}", username);
 
-			} catch (final ObjectNotFoundException onfe) {
-				...
-			}     
+		} catch (final ObjectNotFoundException onfe) {
+			...
+		}
+	}     
 ```
 
 ## Disclaimer!

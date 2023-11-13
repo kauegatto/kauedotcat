@@ -275,8 +275,8 @@ Mas e classes builders? Também não é incomum ver builders que esquecem de imp
 PessoaBuilder pessoaBuilder = new PessoaBuilder(1,"kaue"); // construtor do BUILDER tem em si os parâmetros necessários para criar a classe que constrói
 // se o método para pegar o builder for um método estático, só passar em seu parâmetro
 Pessoa kaue = pessoaBuilder
-											 .withPeso(70)
-                       .build();
+	.withPeso(70)
+	.build();
 ```
 
 Usando o lombok  @Builder, podemos fazer:
@@ -286,7 +286,7 @@ import lombok.Builder;
 
 @Builder(builderMethodName = "hiddenBuilder")
 public class Person {
-		@NotNull
+	@NotNull
     private String name;
     private String surname;
 

@@ -179,21 +179,21 @@ Não vou me aprofundar em patterns nesse post, mas acho legal repassar alguns ex
 
 ```java
 public class EmissorNotaFiscal	{
-		private	RegrasDeTributacao	tributacao;
-		private	LegislacaoFiscal	legislacao;
-		private	List<AcaoPosEmissao>	acoes;
-		//...
-		public	NotaFiscal	gera(Fatura	fatura) {
-				List<Imposto>	impostos	=	tributacao.verifica(fatura);
-				List<Isencao>	isencoes	=	legislacao.analisa(fatura);
-				//	método	auxiliar
-				NotaFiscal	nota	=	aplica(impostos,	isencoes);
-				//	modificado
-				for	(AcaoPosEmissao	acao:	acoes)	{
-						acao.faz(nota);
-				}
-				return	nota;
-		}
+    private	RegrasDeTributacao	tributacao;
+    private	LegislacaoFiscal	legislacao;
+    private	List<AcaoPosEmissao>	acoes;
+    //...
+    public	NotaFiscal	gera(Fatura	fatura) {
+            List<Imposto>	impostos	=	tributacao.verifica(fatura);
+            List<Isencao>	isencoes	=	legislacao.analisa(fatura);
+            //	método	auxiliar
+            NotaFiscal	nota	=	aplica(impostos,	isencoes);
+            //	modificado
+            for	(AcaoPosEmissao	acao:	acoes)	{
+                    acao.faz(nota);
+            }
+            return	nota;
+    }
 ```
 
 Exemplo do livro Desbravando Solid (AQUILES, 2022)
