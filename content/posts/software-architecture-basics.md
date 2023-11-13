@@ -3,7 +3,7 @@ title: "WIP - Arquitetura de Software Básica"
 date: 2023-11-13T12:55:03+00:00
 weight: 1
 aliases: ["/arquitetura"]
-tags: ["ARCHTECTURE","OOP","Microservices", "DDD"]
+tags: ["ARCHITECTURE","OOP","Microservices", "DDD"]
 series: ["Arquitetura de Software"]
 showToc: true
 TocOpen: false
