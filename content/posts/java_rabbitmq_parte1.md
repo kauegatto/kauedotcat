@@ -4,6 +4,7 @@ date: 2023-11-12T16:30:03+00:00
 weight: 2
 # aliases: ["/first"]
 tags: ["SPRING","JAVA","RABBITMQ"]
+series: ["RabbitMQ com SPRING"]
 showToc: true
 TocOpen: false
 draft: false
