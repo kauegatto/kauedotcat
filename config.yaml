@@ -11,6 +11,7 @@ buildDrafts: true
 buildFuture: false
 buildExpired: false
 enableEmoji: true
+disqusShortname: kauegatto
 
 googleAnalytics: UA-123-45
 
