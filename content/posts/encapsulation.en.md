@@ -1,5 +1,5 @@
 ---
-title: "Encapsulation: The Basics Every Junior Developer Needs to Know!"
+title: "(WIP) Encapsulation: The Basics Every Junior Developer Needs to Know!"
 date: 2023-11-12T16:30:03+00:00
 tags: ["SOLID", "OOP", "ARCHITECTURE"]
 description: "Encapsulation is a fundamental concept in OOP, often misunderstood or incorrectly taught. Let's discuss this concept!"
