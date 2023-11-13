@@ -10,7 +10,16 @@
       <link>https://kaue.cat/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 12 Nov 2023 16:30:03 +0000</lastBuildDate><atom:link href="https://kaue.cat/tags/architecture/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Nov 2023 12:55:03 +0000</lastBuildDate><atom:link href="https://kaue.cat/tags/architecture/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Arquitetura de Software para devs: MVC, Hexagonal, DDD</title>
+      <link>https://kaue.cat/posts/software-architecture-basics/</link>
+      <pubDate>Mon, 13 Nov 2023 12:55:03 +0000</pubDate>
+      
+      <guid>https://kaue.cat/posts/software-architecture-basics/</guid>
+      <description>O básico que você como dev precisa conhecer de arquitetura de software! Maior e mais denso post, mas também o mais rico.</description>
+    </item>
+    
     <item>
       <title>SOLID! Um Post Aprofundado</title>
       <link>https://kaue.cat/posts/solid/</link>
