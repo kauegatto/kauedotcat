@@ -1,4 +1,4 @@
-name: Publish to GH Pages
+name: Publish Built to GH Pages Branch
 on:
   push:
     branches:
