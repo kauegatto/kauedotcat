@@ -120,6 +120,9 @@ languages:
             - name: Buscar
               url: search/
               weight: 5
+            - name: Séries
+              url: series/
+              weight: 5
     en:
         languageName: "English"
         weight: 1
@@ -135,6 +138,9 @@ languages:
               weight: 5
             - name: Search
               url: search/
+              weight: 5
+            - name: Séries
+              url: series/
               weight: 5
         params:
           profileMode:
