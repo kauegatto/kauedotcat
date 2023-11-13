@@ -2,7 +2,7 @@ baseURL: 'https://kaue.cat'
 title: Kaue Gatto
 paginate: 10
 defaultContentLanguage: pt
-theme: PaperMod
+theme: paperMod
 
 
 enableInlineShortcodes: true
