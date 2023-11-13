@@ -148,3 +148,8 @@ languages:
               imageUrl: "https://avatars.githubusercontent.com/u/13698473?v=4"
               title: Kaue Gatto - Software Engineer
               subtitle: "Coding adventures of a developer which is addicted in software development and architecture. Still WIP of parsing my texts to english"
+              buttons:
+                - name: Posts
+                  url: posts
+                - name: Tags
+                  url: tags
