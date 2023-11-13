@@ -4,6 +4,7 @@ date: 2023-11-12T16:30:03+00:00
 weight: 2
 # aliases: ["/first"]
 tags: ["JAVA","STREAMS"]
+series: ["Features da Linguagem JAVA"]
 showToc: true
 TocOpen: false
 draft: false
