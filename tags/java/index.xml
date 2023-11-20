@@ -39,6 +39,15 @@
     </item>
     
     <item>
+      <title>TestContainers em Java: Testes de integração, repositórios e outras coisas!</title>
+      <link>https://kaue.cat/posts/integracao_testcontainers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kaue.cat/posts/integracao_testcontainers/</guid>
+      <description>Testcontainers é um framework de código aberto para fornecer instâncias descartáveis e leves de bancos de dados, message brokers, browsers ou praticamente qualquer coisa que possa ser executada em um container Docker.</description>
+    </item>
+    
+    <item>
       <title>Features e Refactors Seguros com Java e SPRING: 2 dicas simples!</title>
       <link>https://kaue.cat/posts/refactors_seguros/</link>
       <pubDate>Sun, 12 Nov 2023 16:30:03 +0000</pubDate>
