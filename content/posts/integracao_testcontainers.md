@@ -1,6 +1,6 @@
 ---
 title: "TestContainers em Java: Testes de integração, repositórios e outras coisas!"
-date: 2023-11-20T05:15:30:03+00:00
+date: 2023-11-20T05:55:03+00:00
 weight: 3
 # aliases: ["/first"]
 tags: ["TEST","JAVA","Teste de Integracao", "Teste de Unidade"]
