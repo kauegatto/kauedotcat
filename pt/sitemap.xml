@@ -18,18 +18,13 @@
     <lastmod>2023-11-12T16:30:03+00:00</lastmod>
   </url><url>
     <loc>https://kaue.cat/posts/integracao_testcontainers/</loc>
+    <lastmod>2023-11-20T05:55:03+00:00</lastmod>
   </url><url>
-    <loc>https://kaue.cat/tags/architecture/</loc>
-    <lastmod>2023-11-13T12:55:03+00:00</lastmod>
-  </url><url>
-    <loc>https://kaue.cat/series/arquitetura/</loc>
-    <lastmod>2023-11-13T12:55:03+00:00</lastmod>
-  </url><url>
-    <loc>https://kaue.cat/tags/ddd/</loc>
-    <lastmod>2023-11-13T12:55:03+00:00</lastmod>
+    <loc>https://kaue.cat/tags/java/</loc>
+    <lastmod>2023-11-20T05:55:03+00:00</lastmod>
   </url><url>
     <loc>https://kaue.cat/</loc>
-    <lastmod>2023-11-13T12:55:03+00:00</lastmod>
+    <lastmod>2023-11-20T05:55:03+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -41,14 +36,8 @@
                 href="https://kaue.cat/"
                 />
   </url><url>
-    <loc>https://kaue.cat/tags/microservices/</loc>
-    <lastmod>2023-11-13T12:55:03+00:00</lastmod>
-  </url><url>
-    <loc>https://kaue.cat/tags/oop/</loc>
-    <lastmod>2023-11-13T12:55:03+00:00</lastmod>
-  </url><url>
     <loc>https://kaue.cat/posts/</loc>
-    <lastmod>2023-11-13T12:55:03+00:00</lastmod>
+    <lastmod>2023-11-20T05:55:03+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -61,13 +50,37 @@
                 />
   </url><url>
     <loc>https://kaue.cat/series/</loc>
-    <lastmod>2023-11-13T12:55:03+00:00</lastmod>
+    <lastmod>2023-11-20T05:55:03+00:00</lastmod>
   </url><url>
     <loc>https://kaue.cat/tags/</loc>
+    <lastmod>2023-11-20T05:55:03+00:00</lastmod>
+  </url><url>
+    <loc>https://kaue.cat/tags/test/</loc>
+    <lastmod>2023-11-20T05:55:03+00:00</lastmod>
+  </url><url>
+    <loc>https://kaue.cat/tags/teste-de-integracao/</loc>
+    <lastmod>2023-11-20T05:55:03+00:00</lastmod>
+  </url><url>
+    <loc>https://kaue.cat/tags/teste-de-unidade/</loc>
+    <lastmod>2023-11-20T05:55:03+00:00</lastmod>
+  </url><url>
+    <loc>https://kaue.cat/series/testes-em-java/</loc>
+    <lastmod>2023-11-20T05:55:03+00:00</lastmod>
+  </url><url>
+    <loc>https://kaue.cat/tags/architecture/</loc>
     <lastmod>2023-11-13T12:55:03+00:00</lastmod>
   </url><url>
-    <loc>https://kaue.cat/tags/java/</loc>
-    <lastmod>2023-11-12T19:30:03+00:00</lastmod>
+    <loc>https://kaue.cat/series/arquitetura/</loc>
+    <lastmod>2023-11-13T12:55:03+00:00</lastmod>
+  </url><url>
+    <loc>https://kaue.cat/tags/ddd/</loc>
+    <lastmod>2023-11-13T12:55:03+00:00</lastmod>
+  </url><url>
+    <loc>https://kaue.cat/tags/microservices/</loc>
+    <lastmod>2023-11-13T12:55:03+00:00</lastmod>
+  </url><url>
+    <loc>https://kaue.cat/tags/oop/</loc>
+    <lastmod>2023-11-13T12:55:03+00:00</lastmod>
   </url><url>
     <loc>https://kaue.cat/tags/rabbitmq/</loc>
     <lastmod>2023-11-12T19:30:03+00:00</lastmod>
@@ -120,13 +133,5 @@
                 />
   </url><url>
     <loc>https://kaue.cat/categorias/</loc>
-  </url><url>
-    <loc>https://kaue.cat/tags/test/</loc>
-  </url><url>
-    <loc>https://kaue.cat/tags/teste-de-integracao/</loc>
-  </url><url>
-    <loc>https://kaue.cat/tags/teste-de-unidade/</loc>
-  </url><url>
-    <loc>https://kaue.cat/series/testes-em-java/</loc>
   </url>
 </urlset>

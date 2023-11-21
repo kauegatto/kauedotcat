@@ -10,7 +10,43 @@
       <link>https://kaue.cat/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 13 Nov 2023 12:55:03 +0000</lastBuildDate><atom:link href="https://kaue.cat/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 20 Nov 2023 05:55:03 +0000</lastBuildDate><atom:link href="https://kaue.cat/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JAVA</title>
+      <link>https://kaue.cat/tags/java/</link>
+      <pubDate>Mon, 20 Nov 2023 05:55:03 +0000</pubDate>
+      
+      <guid>https://kaue.cat/tags/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TEST</title>
+      <link>https://kaue.cat/tags/test/</link>
+      <pubDate>Mon, 20 Nov 2023 05:55:03 +0000</pubDate>
+      
+      <guid>https://kaue.cat/tags/test/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teste de Integracao</title>
+      <link>https://kaue.cat/tags/teste-de-integracao/</link>
+      <pubDate>Mon, 20 Nov 2023 05:55:03 +0000</pubDate>
+      
+      <guid>https://kaue.cat/tags/teste-de-integracao/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teste de Unidade</title>
+      <link>https://kaue.cat/tags/teste-de-unidade/</link>
+      <pubDate>Mon, 20 Nov 2023 05:55:03 +0000</pubDate>
+      
+      <guid>https://kaue.cat/tags/teste-de-unidade/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>ARCHITECTURE</title>
       <link>https://kaue.cat/tags/architecture/</link>
@@ -44,15 +80,6 @@
       <pubDate>Mon, 13 Nov 2023 12:55:03 +0000</pubDate>
       
       <guid>https://kaue.cat/tags/oop/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>JAVA</title>
-      <link>https://kaue.cat/tags/java/</link>
-      <pubDate>Sun, 12 Nov 2023 19:30:03 +0000</pubDate>
-      
-      <guid>https://kaue.cat/tags/java/</guid>
       <description></description>
     </item>
     
@@ -116,33 +143,6 @@
       <pubDate>Sat, 11 Nov 2023 11:30:03 +0000</pubDate>
       
       <guid>https://kaue.cat/tags/blog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>TEST</title>
-      <link>https://kaue.cat/tags/test/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kaue.cat/tags/test/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Teste de Integracao</title>
-      <link>https://kaue.cat/tags/teste-de-integracao/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kaue.cat/tags/teste-de-integracao/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Teste de Unidade</title>
-      <link>https://kaue.cat/tags/teste-de-unidade/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kaue.cat/tags/teste-de-unidade/</guid>
       <description></description>
     </item>
     
