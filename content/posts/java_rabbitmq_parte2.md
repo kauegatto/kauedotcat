@@ -7,7 +7,7 @@ tags: ["SPRING","JAVA","RABBITMQ"]
 series: ["RabbitMQ com SPRING"]
 showToc: true
 TocOpen: false
-draft: true
+draft: false
 hidemeta: false
 comments: true
 description: "RabbitMQ é uma das principais soluções para envio de mensagens assíncronas na indústria, vamos entender o que é o protocolo AMQP e começar a implementar essa ferramenta com muitos exemplos em JAVA"
@@ -33,6 +33,7 @@ editPost:
     Text: "Sugerir Alterações" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
+Texto necessita outra revisão.
 # Aprofundando
 
 ### Nota:

@@ -7,7 +7,7 @@ tags: ["TEST","JAVA","Teste de Integracao", "Teste de Unidade"]
 series: ["Testes em JAVA"]
 showToc: true
 TocOpen: false
-draft: true
+draft: false
 hidemeta: false
 comments: true
 description: "Testcontainers é um framework de código aberto para fornecer instâncias descartáveis e leves de bancos de dados, message brokers, browsers ou praticamente qualquer coisa que possa ser executada em um container Docker."
