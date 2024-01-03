@@ -10,7 +10,7 @@
       <link>https://kaue.cat/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 13 Nov 2023 12:55:03 +0000</lastBuildDate><atom:link href="https://kaue.cat/tags/architecture/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Jan 2024 16:30:03 +0000</lastBuildDate><atom:link href="https://kaue.cat/tags/architecture/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Arquitetura de Software para devs: MVC, Hexagonal, DDD</title>
       <link>https://kaue.cat/posts/software-architecture-basics/</link>
@@ -27,6 +27,15 @@
       
       <guid>https://kaue.cat/posts/solid/</guid>
       <description>Um post aprofundado sobre SOLID, com inúmeros exemplos de código e com um aprofundamento maior que o normal.</description>
+    </item>
+    
+    <item>
+      <title>[WIP] Replicação de Banco de Dados</title>
+      <link>https://kaue.cat/posts/database-replication/</link>
+      <pubDate>Wed, 03 Jan 2024 16:30:03 +0000</pubDate>
+      
+      <guid>https://kaue.cat/posts/database-replication/</guid>
+      <description>Vamos explorar como fazer testes em java!</description>
     </item>
     
     <item>

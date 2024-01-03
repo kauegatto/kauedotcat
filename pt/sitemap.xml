@@ -20,11 +20,20 @@
     <loc>https://kaue.cat/posts/integracao_testcontainers/</loc>
     <lastmod>2023-11-20T05:55:03+00:00</lastmod>
   </url><url>
+    <loc>https://kaue.cat/posts/database-replication/</loc>
+    <lastmod>2024-01-03T16:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://kaue.cat/posts/testes_java/</loc>
+    <lastmod>2024-01-03T16:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://kaue.cat/tags/architecture/</loc>
+    <lastmod>2024-01-03T16:30:03+00:00</lastmod>
+  </url><url>
     <loc>https://kaue.cat/tags/java/</loc>
-    <lastmod>2023-11-20T05:55:03+00:00</lastmod>
+    <lastmod>2024-01-03T16:30:03+00:00</lastmod>
   </url><url>
     <loc>https://kaue.cat/</loc>
-    <lastmod>2023-11-20T05:55:03+00:00</lastmod>
+    <lastmod>2024-01-03T16:30:03+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -37,7 +46,7 @@
                 />
   </url><url>
     <loc>https://kaue.cat/posts/</loc>
-    <lastmod>2023-11-20T05:55:03+00:00</lastmod>
+    <lastmod>2024-01-03T16:30:03+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -49,10 +58,16 @@
                 href="https://kaue.cat/posts/"
                 />
   </url><url>
-    <loc>https://kaue.cat/series/</loc>
-    <lastmod>2023-11-20T05:55:03+00:00</lastmod>
+    <loc>https://kaue.cat/tags/spring/</loc>
+    <lastmod>2024-01-03T16:30:03+00:00</lastmod>
   </url><url>
     <loc>https://kaue.cat/tags/</loc>
+    <lastmod>2024-01-03T16:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://kaue.cat/tags/testes/</loc>
+    <lastmod>2024-01-03T16:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://kaue.cat/series/</loc>
     <lastmod>2023-11-20T05:55:03+00:00</lastmod>
   </url><url>
     <loc>https://kaue.cat/tags/test/</loc>
@@ -66,9 +81,6 @@
   </url><url>
     <loc>https://kaue.cat/series/testes-em-java/</loc>
     <lastmod>2023-11-20T05:55:03+00:00</lastmod>
-  </url><url>
-    <loc>https://kaue.cat/tags/architecture/</loc>
-    <lastmod>2023-11-13T12:55:03+00:00</lastmod>
   </url><url>
     <loc>https://kaue.cat/series/arquitetura/</loc>
     <lastmod>2023-11-13T12:55:03+00:00</lastmod>
@@ -86,9 +98,6 @@
     <lastmod>2023-11-12T19:30:03+00:00</lastmod>
   </url><url>
     <loc>https://kaue.cat/series/rabbitmq-com-spring/</loc>
-    <lastmod>2023-11-12T19:30:03+00:00</lastmod>
-  </url><url>
-    <loc>https://kaue.cat/tags/spring/</loc>
     <lastmod>2023-11-12T19:30:03+00:00</lastmod>
   </url><url>
     <loc>https://kaue.cat/tags/backend/</loc>

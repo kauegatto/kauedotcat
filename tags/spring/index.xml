@@ -10,7 +10,7 @@
       <link>https://kaue.cat/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 12 Nov 2023 19:30:03 +0000</lastBuildDate><atom:link href="https://kaue.cat/tags/spring/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Jan 2024 16:30:03 +0000</lastBuildDate><atom:link href="https://kaue.cat/tags/spring/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>RabbitMQ com Java e Spring : Entendendo de verdade e com um toque de elegância (parte 2)</title>
       <link>https://kaue.cat/posts/java_rabbitmq_parte2/</link>
@@ -27,6 +27,15 @@
       
       <guid>https://kaue.cat/posts/java_rabbitmq_parte1/</guid>
       <description>RabbitMQ é uma das principais soluções para envio de mensagens assíncronas na indústria, vamos entender o que é o protocolo AMQP e começar a implementar essa ferramenta com muitos exemplos em JAVA</description>
+    </item>
+    
+    <item>
+      <title>[WIP] Testes em Java - JUnit, Mockito, Integração e TestContainers</title>
+      <link>https://kaue.cat/posts/testes_java/</link>
+      <pubDate>Wed, 03 Jan 2024 16:30:03 +0000</pubDate>
+      
+      <guid>https://kaue.cat/posts/testes_java/</guid>
+      <description>Vamos explorar como fazer testes em java!</description>
     </item>
     
     <item>
