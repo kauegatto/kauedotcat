@@ -20,20 +20,14 @@
     <loc>https://kaue.cat/posts/integracao_testcontainers/</loc>
     <lastmod>2023-11-20T05:55:03+00:00</lastmod>
   </url><url>
-    <loc>https://kaue.cat/posts/database-replication/</loc>
-    <lastmod>2024-01-03T16:30:03+00:00</lastmod>
-  </url><url>
-    <loc>https://kaue.cat/posts/testes_java/</loc>
-    <lastmod>2024-01-03T16:30:03+00:00</lastmod>
+    <loc>https://kaue.cat/posts/virtual-threads/</loc>
+    <lastmod>2024-03-25T16:43:03+00:00</lastmod>
   </url><url>
     <loc>https://kaue.cat/tags/architecture/</loc>
-    <lastmod>2024-01-03T16:30:03+00:00</lastmod>
-  </url><url>
-    <loc>https://kaue.cat/tags/java/</loc>
-    <lastmod>2024-01-03T16:30:03+00:00</lastmod>
+    <lastmod>2024-03-25T16:43:03+00:00</lastmod>
   </url><url>
     <loc>https://kaue.cat/</loc>
-    <lastmod>2024-01-03T16:30:03+00:00</lastmod>
+    <lastmod>2024-03-25T16:43:03+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -46,7 +40,7 @@
                 />
   </url><url>
     <loc>https://kaue.cat/posts/</loc>
-    <lastmod>2024-01-03T16:30:03+00:00</lastmod>
+    <lastmod>2024-03-25T16:43:03+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -58,10 +52,19 @@
                 href="https://kaue.cat/posts/"
                 />
   </url><url>
-    <loc>https://kaue.cat/tags/spring/</loc>
+    <loc>https://kaue.cat/tags/</loc>
+    <lastmod>2024-03-25T16:43:03+00:00</lastmod>
+  </url><url>
+    <loc>https://kaue.cat/posts/database-replication/</loc>
     <lastmod>2024-01-03T16:30:03+00:00</lastmod>
   </url><url>
-    <loc>https://kaue.cat/tags/</loc>
+    <loc>https://kaue.cat/posts/testes_java/</loc>
+    <lastmod>2024-01-03T16:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://kaue.cat/tags/java/</loc>
+    <lastmod>2024-01-03T16:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://kaue.cat/tags/spring/</loc>
     <lastmod>2024-01-03T16:30:03+00:00</lastmod>
   </url><url>
     <loc>https://kaue.cat/tags/testes/</loc>
