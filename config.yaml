@@ -49,11 +49,11 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "https://user-images.githubusercontent.com/25181517/192107856-aa92c8b1-b615-47c3-9141-ed0d29a90239.png"
-    favicon16x16: "https://user-images.githubusercontent.com/25181517/192107856-aa92c8b1-b615-47c3-9141-ed0d29a90239.png"
-    favicon32x32: "https://user-images.githubusercontent.com/25181517/192107856-aa92c8b1-b615-47c3-9141-ed0d29a90239.png"
-    apple_touch_icon: "https://user-images.githubusercontent.com/25181517/192107856-aa92c8b1-b615-47c3-9141-ed0d29a90239.png"
-    safari_pinned_tab: "https://user-images.githubusercontent.com/25181517/192107856-aa92c8b1-b615-47c3-9141-ed0d29a90239.png"
+    favicon: "https://raw.githubusercontent.com/kauegatto/hugo-PaperMod/6aab706f2e2053433e33f8fd45dbec615f4d479f/images/favicon.ico"
+    favicon16x16: "https://raw.githubusercontent.com/kauegatto/hugo-PaperMod/6aab706f2e2053433e33f8fd45dbec615f4d479f/images/favicon.ico"
+    favicon32x32: "https://raw.githubusercontent.com/kauegatto/hugo-PaperMod/6aab706f2e2053433e33f8fd45dbec615f4d479f/images/favicon.ico"
+    apple_touch_icon: "https://raw.githubusercontent.com/kauegatto/hugo-PaperMod/6aab706f2e2053433e33f8fd45dbec615f4d479f/images/favicon.ico"
+    safari_pinned_tab: "https://raw.githubusercontent.com/kauegatto/hugo-PaperMod/6aab706f2e2053433e33f8fd45dbec615f4d479f/images/favicon.ico"
   label:
     text: "Home"
     icon: /apple-touch-icon.png
