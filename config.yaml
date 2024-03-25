@@ -13,7 +13,8 @@ buildExpired: false
 enableEmoji: true
 disqusShortname: www-kaue-cat
 
-googleAnalytics: UA-123-45
+googleAnalytics: "G-6MZTJBEG75"
+
 
 minify:
   disableXML: true
