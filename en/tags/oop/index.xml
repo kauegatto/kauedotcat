@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>OOP on Kaue Gatto - Software Engineer</title>
+    <title>OOP on Kaue Gatto - Developer Blog</title>
     <link>https://kaue.cat/en/tags/oop/</link>
-    <description>Recent content in OOP on Kaue Gatto - Software Engineer</description>
+    <description>Recent content in OOP on Kaue Gatto - Developer Blog</description>
     <image>
-      <title>Kaue Gatto - Software Engineer</title>
+      <title>Kaue Gatto - Developer Blog</title>
       <url>https://kaue.cat/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://kaue.cat/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
