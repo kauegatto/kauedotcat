@@ -22,7 +22,7 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: Kaue Gatto
+  title: Kaue Gatto - Blog de Desenvolvimento
   description: "Dev Backend, curto arquitetura de software e cerveja"
   keywords: [Blog, Portfolio, PaperMod]
   author: Me
@@ -49,11 +49,11 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+    favicon: "https://user-images.githubusercontent.com/25181517/192107856-aa92c8b1-b615-47c3-9141-ed0d29a90239.png"
+    favicon16x16: "https://user-images.githubusercontent.com/25181517/192107856-aa92c8b1-b615-47c3-9141-ed0d29a90239.png"
+    favicon32x32: "https://user-images.githubusercontent.com/25181517/192107856-aa92c8b1-b615-47c3-9141-ed0d29a90239.png"
+    apple_touch_icon: "https://user-images.githubusercontent.com/25181517/192107856-aa92c8b1-b615-47c3-9141-ed0d29a90239.png"
+    safari_pinned_tab: "https://user-images.githubusercontent.com/25181517/192107856-aa92c8b1-b615-47c3-9141-ed0d29a90239.png"
   label:
     text: "Home"
     icon: /apple-touch-icon.png
@@ -61,7 +61,8 @@ params:
   # profile-mode
   profileMode:
     enabled: true # needs to be explicitly set
-    subtitle: "Aprendizados de um dev que curte arquitetura de software e uma boa cerveja!"
+    title: Kauê Gatto
+    subtitle: "Artigos, opiniões e pensamentos de um dev que curte backend, arquitetura de software e cerveja. Focado em Java & interessado em Go."
     imageUrl: "https://avatars.githubusercontent.com/u/13698473?v=4"
     imageTitle: Eu!
     buttons:
@@ -128,7 +129,7 @@ languages:
     en:
         languageName: "English"
         weight: 1
-        title: Kaue Gatto - Software Engineer
+        title: Kaue Gatto - Developer Blog
         taxonomies:
           category: Categories
           tag: Tags
