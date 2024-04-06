@@ -1,6 +1,6 @@
 ---
 title: "1. Concorrência em Java: Threads! Processando em Paralelo e Ganhando Throughput"
-date: 2024-05-04T19:00:03+00:00
+date: 2024-04-05T19:00:03+00:00
 # weight: 1
 aliases: ["/concorrencia-threads"]
 tags: ["Concorrencia", "JAVA"]
