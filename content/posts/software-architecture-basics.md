@@ -4,7 +4,6 @@ date: 2023-11-13T12:55:03+00:00
 weight: 1
 aliases: ["/arquitetura"]
 tags: ["ARCHITECTURE","OOP","Microservices", "DDD"]
-series: ["Arquitetura"]
 showToc: true
 TocOpen: false
 draft: false

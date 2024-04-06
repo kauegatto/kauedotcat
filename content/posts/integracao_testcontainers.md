@@ -4,7 +4,6 @@ date: 2023-11-20T05:55:03+00:00
 weight: 3
 # aliases: ["/first"]
 tags: ["TEST","JAVA","Teste de Integracao", "Teste de Unidade"]
-series: ["Testes em JAVA"]
 showToc: true
 TocOpen: false
 draft: false
