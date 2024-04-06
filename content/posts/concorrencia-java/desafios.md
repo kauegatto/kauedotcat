@@ -41,7 +41,7 @@ Nosso roteiro é:
 1. Threads! Processando em Paralelo e Ganhando Throughput
 **2. Sincronização de Threads - DeadLocks, Zonas Críticas e Condições de Corrida**
 3. Concorrência, agora melhor - Classes Thread Safe
-4. Executors E Thread Pools
+4. Executors, Thread Pools e Futures
 5. CompletableFuture
 6. Virtual Threads
 
