@@ -1,8 +1,8 @@
 ---
 title: "Sincronização de Threads - DeadLocks, Zonas Críticas e Condições de Corrida"
-date: 2024-04-05T19:16:03+00:00
+date: 2024-03-31T19:16:03+00:00
 # weight: 1
-aliases: ["/deadlocks", "/race-conditions", "sincronismo"]
+aliases: ["/deadlocks", "/race-conditions", "desafios"]
 tags: ["Concorrencia", "JAVA"]
 series: ["Concorrencia em Java!"]
 showToc: true
@@ -39,7 +39,7 @@ Seja bem vindo, esse daqui é o segundo de 6 posts sobre concorrência em Java. 
 Nosso roteiro é:
 
 1. Threads! Processando em Paralelo e Ganhando Throughput
-2. Sincronização de Threads - DeadLocks, Zonas Críticas e Condições de Corrida
+**2. Sincronização de Threads - DeadLocks, Zonas Críticas e Condições de Corrida**
 3. Concorrência, agora melhor - Classes Thread Safe
 4. Executors E Thread Pools
 5. CompletableFuture

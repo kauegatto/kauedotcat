@@ -1,6 +1,6 @@
 ---
 title: "1. Concorrência em Java: Threads! Processando em Paralelo e Ganhando Throughput"
-date: 2024-04-05T19:00:03+00:00
+date: 2024-03-29T19:00:03+00:00
 # weight: 1
 aliases: ["/concorrencia-threads"]
 tags: ["Concorrencia", "JAVA"]
@@ -36,7 +36,7 @@ editPost:
 
 Seja bem vindo, esse daqui é o primeiro de 6 posts sobre concorrência em Java. Nosso roteiro é:
 
-1. Threads! Processando em Paralelo e Ganhando Throughput
+**1. Threads! Processando em Paralelo e Ganhando Throughput**
 2. Sincronização de Threads - DeadLocks, Zonas Críticas e Condições de Corrida
 3. Concorrência, agora melhor - Classes Thread Safe
 4. Executors E Thread Pools
