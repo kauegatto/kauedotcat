@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Concorrencia on Kaue Gatto</title>
+    <link>https://kaue.cat/tags/concorrencia/</link>
+    <description>Recent content in Concorrencia on Kaue Gatto</description>
+    <image>
+      <title>Kaue Gatto</title>
+      <url>https://kaue.cat/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://kaue.cat/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 05 Apr 2024 19:16:03 +0000</lastBuildDate><atom:link href="https://kaue.cat/tags/concorrencia/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sincronização de Threads - DeadLocks, Zonas Críticas e Condições de Corrida</title>
+      <link>https://kaue.cat/posts/concorrencia-java/perigos/</link>
+      <pubDate>Fri, 05 Apr 2024 19:16:03 +0000</pubDate>
+      
+      <guid>https://kaue.cat/posts/concorrencia-java/perigos/</guid>
+      <description>Os benefícios associados à programação paralela e concorrente são muitos, mas os perigos também!</description>
+    </item>
+    
+    <item>
+      <title>1. Concorrência em Java: Threads! Processando em Paralelo e Ganhando Throughput</title>
+      <link>https://kaue.cat/posts/concorrencia-java/threads-java/</link>
+      <pubDate>Fri, 05 Apr 2024 19:00:03 +0000</pubDate>
+      
+      <guid>https://kaue.cat/posts/concorrencia-java/threads-java/</guid>
+      <description>Vamos explorar como fazer testes em java!</description>
+    </item>
+    
+  </channel>
+</rss>

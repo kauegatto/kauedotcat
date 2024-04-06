@@ -10,22 +10,13 @@
       <link>https://kaue.cat/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 20 Nov 2023 05:55:03 +0000</lastBuildDate><atom:link href="https://kaue.cat/series/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Apr 2024 19:16:03 +0000</lastBuildDate><atom:link href="https://kaue.cat/series/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Testes em JAVA</title>
-      <link>https://kaue.cat/series/testes-em-java/</link>
-      <pubDate>Mon, 20 Nov 2023 05:55:03 +0000</pubDate>
+      <title>Concorrencia em Java!</title>
+      <link>https://kaue.cat/series/concorrencia-em-java/</link>
+      <pubDate>Fri, 05 Apr 2024 19:16:03 +0000</pubDate>
       
-      <guid>https://kaue.cat/series/testes-em-java/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Arquitetura</title>
-      <link>https://kaue.cat/series/arquitetura/</link>
-      <pubDate>Mon, 13 Nov 2023 12:55:03 +0000</pubDate>
-      
-      <guid>https://kaue.cat/series/arquitetura/</guid>
+      <guid>https://kaue.cat/series/concorrencia-em-java/</guid>
       <description></description>
     </item>
     

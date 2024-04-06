@@ -13,19 +13,19 @@
     <lastBuildDate>Sun, 12 Nov 2023 19:30:03 +0000</lastBuildDate><atom:link href="https://kaue.cat/series/rabbitmq-com-spring/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>RabbitMQ com Java e Spring : Entendendo de verdade e com um toque de elegância (parte 2)</title>
-      <link>https://kaue.cat/posts/java_rabbitmq_parte2/</link>
+      <link>https://kaue.cat/posts/java-rabbit/java_rabbitmq_parte2/</link>
       <pubDate>Sun, 12 Nov 2023 19:30:03 +0000</pubDate>
       
-      <guid>https://kaue.cat/posts/java_rabbitmq_parte2/</guid>
+      <guid>https://kaue.cat/posts/java-rabbit/java_rabbitmq_parte2/</guid>
       <description>RabbitMQ é uma das principais soluções para envio de mensagens assíncronas na indústria, vamos entender o que é o protocolo AMQP e começar a implementar essa ferramenta com muitos exemplos em JAVA</description>
     </item>
     
     <item>
       <title>RabbitMQ com Java e Spring : Começando (pt. 1)</title>
-      <link>https://kaue.cat/posts/java_rabbitmq_parte1/</link>
+      <link>https://kaue.cat/posts/java-rabbit/java_rabbitmq_parte1/</link>
       <pubDate>Sun, 12 Nov 2023 16:30:03 +0000</pubDate>
       
-      <guid>https://kaue.cat/posts/java_rabbitmq_parte1/</guid>
+      <guid>https://kaue.cat/posts/java-rabbit/java_rabbitmq_parte1/</guid>
       <description>RabbitMQ é uma das principais soluções para envio de mensagens assíncronas na indústria, vamos entender o que é o protocolo AMQP e começar a implementar essa ferramenta com muitos exemplos em JAVA</description>
     </item>
     

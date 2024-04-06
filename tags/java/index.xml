@@ -10,22 +10,22 @@
       <link>https://kaue.cat/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 03 Jan 2024 16:30:03 +0000</lastBuildDate><atom:link href="https://kaue.cat/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Apr 2024 19:16:03 +0000</lastBuildDate><atom:link href="https://kaue.cat/tags/java/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>RabbitMQ com Java e Spring : Entendendo de verdade e com um toque de elegância (parte 2)</title>
-      <link>https://kaue.cat/posts/java_rabbitmq_parte2/</link>
+      <link>https://kaue.cat/posts/java-rabbit/java_rabbitmq_parte2/</link>
       <pubDate>Sun, 12 Nov 2023 19:30:03 +0000</pubDate>
       
-      <guid>https://kaue.cat/posts/java_rabbitmq_parte2/</guid>
+      <guid>https://kaue.cat/posts/java-rabbit/java_rabbitmq_parte2/</guid>
       <description>RabbitMQ é uma das principais soluções para envio de mensagens assíncronas na indústria, vamos entender o que é o protocolo AMQP e começar a implementar essa ferramenta com muitos exemplos em JAVA</description>
     </item>
     
     <item>
       <title>RabbitMQ com Java e Spring : Começando (pt. 1)</title>
-      <link>https://kaue.cat/posts/java_rabbitmq_parte1/</link>
+      <link>https://kaue.cat/posts/java-rabbit/java_rabbitmq_parte1/</link>
       <pubDate>Sun, 12 Nov 2023 16:30:03 +0000</pubDate>
       
-      <guid>https://kaue.cat/posts/java_rabbitmq_parte1/</guid>
+      <guid>https://kaue.cat/posts/java-rabbit/java_rabbitmq_parte1/</guid>
       <description>RabbitMQ é uma das principais soluções para envio de mensagens assíncronas na indústria, vamos entender o que é o protocolo AMQP e começar a implementar essa ferramenta com muitos exemplos em JAVA</description>
     </item>
     
@@ -45,6 +45,24 @@
       
       <guid>https://kaue.cat/posts/integracao_testcontainers/</guid>
       <description>Testcontainers é um framework de código aberto para fornecer instâncias descartáveis e leves de bancos de dados, message brokers, browsers ou praticamente qualquer coisa que possa ser executada em um container Docker.</description>
+    </item>
+    
+    <item>
+      <title>Sincronização de Threads - DeadLocks, Zonas Críticas e Condições de Corrida</title>
+      <link>https://kaue.cat/posts/concorrencia-java/perigos/</link>
+      <pubDate>Fri, 05 Apr 2024 19:16:03 +0000</pubDate>
+      
+      <guid>https://kaue.cat/posts/concorrencia-java/perigos/</guid>
+      <description>Os benefícios associados à programação paralela e concorrente são muitos, mas os perigos também!</description>
+    </item>
+    
+    <item>
+      <title>1. Concorrência em Java: Threads! Processando em Paralelo e Ganhando Throughput</title>
+      <link>https://kaue.cat/posts/concorrencia-java/threads-java/</link>
+      <pubDate>Fri, 05 Apr 2024 19:00:03 +0000</pubDate>
+      
+      <guid>https://kaue.cat/posts/concorrencia-java/threads-java/</guid>
+      <description>Vamos explorar como fazer testes em java!</description>
     </item>
     
     <item>

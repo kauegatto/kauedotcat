@@ -8,10 +8,10 @@
     <loc>https://kaue.cat/posts/solid/</loc>
     <lastmod>2023-11-12T16:30:03+00:00</lastmod>
   </url><url>
-    <loc>https://kaue.cat/posts/java_rabbitmq_parte2/</loc>
+    <loc>https://kaue.cat/posts/java-rabbit/java_rabbitmq_parte2/</loc>
     <lastmod>2023-11-12T19:30:03+00:00</lastmod>
   </url><url>
-    <loc>https://kaue.cat/posts/java_rabbitmq_parte1/</loc>
+    <loc>https://kaue.cat/posts/java-rabbit/java_rabbitmq_parte1/</loc>
     <lastmod>2023-11-12T16:30:03+00:00</lastmod>
   </url><url>
     <loc>https://kaue.cat/posts/streams/</loc>
@@ -20,14 +20,17 @@
     <loc>https://kaue.cat/posts/integracao_testcontainers/</loc>
     <lastmod>2023-11-20T05:55:03+00:00</lastmod>
   </url><url>
-    <loc>https://kaue.cat/posts/virtual-threads/</loc>
-    <lastmod>2024-03-25T16:43:03+00:00</lastmod>
+    <loc>https://kaue.cat/tags/concorrencia/</loc>
+    <lastmod>2024-04-05T19:16:03+00:00</lastmod>
   </url><url>
-    <loc>https://kaue.cat/tags/architecture/</loc>
-    <lastmod>2024-03-25T16:43:03+00:00</lastmod>
+    <loc>https://kaue.cat/series/concorrencia-em-java/</loc>
+    <lastmod>2024-04-05T19:16:03+00:00</lastmod>
+  </url><url>
+    <loc>https://kaue.cat/tags/java/</loc>
+    <lastmod>2024-04-05T19:16:03+00:00</lastmod>
   </url><url>
     <loc>https://kaue.cat/</loc>
-    <lastmod>2024-03-25T16:43:03+00:00</lastmod>
+    <lastmod>2024-04-05T19:16:03+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -40,7 +43,7 @@
                 />
   </url><url>
     <loc>https://kaue.cat/posts/</loc>
-    <lastmod>2024-03-25T16:43:03+00:00</lastmod>
+    <lastmod>2024-04-05T19:16:03+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -52,7 +55,22 @@
                 href="https://kaue.cat/posts/"
                 />
   </url><url>
+    <loc>https://kaue.cat/series/</loc>
+    <lastmod>2024-04-05T19:16:03+00:00</lastmod>
+  </url><url>
+    <loc>https://kaue.cat/posts/concorrencia-java/perigos/</loc>
+    <lastmod>2024-04-05T19:16:03+00:00</lastmod>
+  </url><url>
     <loc>https://kaue.cat/tags/</loc>
+    <lastmod>2024-04-05T19:16:03+00:00</lastmod>
+  </url><url>
+    <loc>https://kaue.cat/posts/concorrencia-java/threads-java/</loc>
+    <lastmod>2024-04-05T19:00:03+00:00</lastmod>
+  </url><url>
+    <loc>https://kaue.cat/posts/virtual-threads/</loc>
+    <lastmod>2024-03-25T16:43:03+00:00</lastmod>
+  </url><url>
+    <loc>https://kaue.cat/tags/architecture/</loc>
     <lastmod>2024-03-25T16:43:03+00:00</lastmod>
   </url><url>
     <loc>https://kaue.cat/posts/database-replication/</loc>
@@ -61,17 +79,11 @@
     <loc>https://kaue.cat/posts/testes_java/</loc>
     <lastmod>2024-01-03T16:30:03+00:00</lastmod>
   </url><url>
-    <loc>https://kaue.cat/tags/java/</loc>
-    <lastmod>2024-01-03T16:30:03+00:00</lastmod>
-  </url><url>
     <loc>https://kaue.cat/tags/spring/</loc>
     <lastmod>2024-01-03T16:30:03+00:00</lastmod>
   </url><url>
     <loc>https://kaue.cat/tags/testes/</loc>
     <lastmod>2024-01-03T16:30:03+00:00</lastmod>
-  </url><url>
-    <loc>https://kaue.cat/series/</loc>
-    <lastmod>2023-11-20T05:55:03+00:00</lastmod>
   </url><url>
     <loc>https://kaue.cat/tags/test/</loc>
     <lastmod>2023-11-20T05:55:03+00:00</lastmod>
@@ -81,12 +93,6 @@
   </url><url>
     <loc>https://kaue.cat/tags/teste-de-unidade/</loc>
     <lastmod>2023-11-20T05:55:03+00:00</lastmod>
-  </url><url>
-    <loc>https://kaue.cat/series/testes-em-java/</loc>
-    <lastmod>2023-11-20T05:55:03+00:00</lastmod>
-  </url><url>
-    <loc>https://kaue.cat/series/arquitetura/</loc>
-    <lastmod>2023-11-13T12:55:03+00:00</lastmod>
   </url><url>
     <loc>https://kaue.cat/tags/ddd/</loc>
     <lastmod>2023-11-13T12:55:03+00:00</lastmod>
@@ -123,12 +129,6 @@
   </url><url>
     <loc>https://kaue.cat/tags/streams/</loc>
     <lastmod>2023-11-12T16:30:03+00:00</lastmod>
-  </url><url>
-    <loc>https://kaue.cat/tags/blog/</loc>
-    <lastmod>2023-11-11T11:30:03+00:00</lastmod>
-  </url><url>
-    <loc>https://kaue.cat/posts/ola_mundo/</loc>
-    <lastmod>2023-11-11T11:30:03+00:00</lastmod>
   </url><url>
     <loc>https://kaue.cat/archives/</loc>
   </url><url>
