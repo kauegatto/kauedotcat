@@ -20,17 +20,20 @@
     <loc>https://kaue.cat/posts/integracao_testcontainers/</loc>
     <lastmod>2023-11-20T05:55:03+00:00</lastmod>
   </url><url>
+    <loc>https://kaue.cat/posts/concorrencia-java/virtual-threads/</loc>
+    <lastmod>2024-04-06T20:43:03+00:00</lastmod>
+  </url><url>
     <loc>https://kaue.cat/tags/concorrencia/</loc>
-    <lastmod>2024-03-31T19:16:03+00:00</lastmod>
+    <lastmod>2024-04-06T20:43:03+00:00</lastmod>
   </url><url>
     <loc>https://kaue.cat/series/concorrencia-em-java/</loc>
-    <lastmod>2024-03-31T19:16:03+00:00</lastmod>
+    <lastmod>2024-04-06T20:43:03+00:00</lastmod>
   </url><url>
     <loc>https://kaue.cat/tags/java/</loc>
-    <lastmod>2024-03-31T19:16:03+00:00</lastmod>
+    <lastmod>2024-04-06T20:43:03+00:00</lastmod>
   </url><url>
     <loc>https://kaue.cat/</loc>
-    <lastmod>2024-03-31T19:16:03+00:00</lastmod>
+    <lastmod>2024-04-06T20:43:03+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -43,7 +46,7 @@
                 />
   </url><url>
     <loc>https://kaue.cat/posts/</loc>
-    <lastmod>2024-03-31T19:16:03+00:00</lastmod>
+    <lastmod>2024-04-06T20:43:03+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -56,27 +59,33 @@
                 />
   </url><url>
     <loc>https://kaue.cat/series/</loc>
-    <lastmod>2024-03-31T19:16:03+00:00</lastmod>
-  </url><url>
-    <loc>https://kaue.cat/posts/concorrencia-java/desafios/</loc>
-    <lastmod>2024-03-31T19:16:03+00:00</lastmod>
+    <lastmod>2024-04-06T20:43:03+00:00</lastmod>
   </url><url>
     <loc>https://kaue.cat/tags/</loc>
+    <lastmod>2024-04-06T20:43:03+00:00</lastmod>
+  </url><url>
+    <loc>https://kaue.cat/posts/concorrencia-java/completablefuture/</loc>
+    <lastmod>2024-04-05T20:18:37+00:00</lastmod>
+  </url><url>
+    <loc>https://kaue.cat/posts/concorrencia-java/executors-e-threadpools/</loc>
+    <lastmod>2024-04-04T19:42:37+00:00</lastmod>
+  </url><url>
+    <loc>https://kaue.cat/posts/concorrencia-java/thread-safe/</loc>
+    <lastmod>2024-04-01T19:25:03+00:00</lastmod>
+  </url><url>
+    <loc>https://kaue.cat/posts/concorrencia-java/desafios/</loc>
     <lastmod>2024-03-31T19:16:03+00:00</lastmod>
   </url><url>
     <loc>https://kaue.cat/posts/concorrencia-java/threads-java/</loc>
     <lastmod>2024-03-29T19:00:03+00:00</lastmod>
   </url><url>
-    <loc>https://kaue.cat/posts/virtual-threads/</loc>
-    <lastmod>2024-03-25T16:43:03+00:00</lastmod>
-  </url><url>
-    <loc>https://kaue.cat/tags/architecture/</loc>
-    <lastmod>2024-03-25T16:43:03+00:00</lastmod>
-  </url><url>
     <loc>https://kaue.cat/posts/database-replication/</loc>
     <lastmod>2024-01-03T16:30:03+00:00</lastmod>
   </url><url>
     <loc>https://kaue.cat/posts/testes_java/</loc>
+    <lastmod>2024-01-03T16:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://kaue.cat/tags/architecture/</loc>
     <lastmod>2024-01-03T16:30:03+00:00</lastmod>
   </url><url>
     <loc>https://kaue.cat/tags/spring/</loc>
@@ -145,9 +154,5 @@
                 />
   </url><url>
     <loc>https://kaue.cat/categorias/</loc>
-  </url><url>
-    <loc>https://kaue.cat/posts/concorrencia-java/thread-safe/</loc>
-  </url><url>
-    <loc>https://kaue.cat/posts/concorrencia-java/executors-e-threadpools/</loc>
   </url>
 </urlset>

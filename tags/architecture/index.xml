@@ -10,7 +10,7 @@
       <link>https://kaue.cat/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 25 Mar 2024 16:43:03 +0000</lastBuildDate><atom:link href="https://kaue.cat/tags/architecture/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Jan 2024 16:30:03 +0000</lastBuildDate><atom:link href="https://kaue.cat/tags/architecture/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Arquitetura de Software para devs: MVC, Hexagonal, DDD</title>
       <link>https://kaue.cat/posts/software-architecture-basics/</link>
@@ -27,15 +27,6 @@
       
       <guid>https://kaue.cat/posts/solid/</guid>
       <description>Um post aprofundado sobre SOLID, com inúmeros exemplos de código e com um aprofundamento maior que o normal.</description>
-    </item>
-    
-    <item>
-      <title>[WIP] Virtual Threads em Java!</title>
-      <link>https://kaue.cat/posts/virtual-threads/</link>
-      <pubDate>Mon, 25 Mar 2024 16:43:03 +0000</pubDate>
-      
-      <guid>https://kaue.cat/posts/virtual-threads/</guid>
-      <description>Vamos finalmente entender o Project Loom! Que adiciona as virutal threads no LTS da JDK 21</description>
     </item>
     
     <item>

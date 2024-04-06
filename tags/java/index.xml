@@ -10,7 +10,7 @@
       <link>https://kaue.cat/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 31 Mar 2024 19:16:03 +0000</lastBuildDate><atom:link href="https://kaue.cat/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Apr 2024 20:43:03 +0000</lastBuildDate><atom:link href="https://kaue.cat/tags/java/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>RabbitMQ com Java e Spring : Entendendo de verdade e com um toque de elegância (parte 2)</title>
       <link>https://kaue.cat/posts/java-rabbit/java_rabbitmq_parte2/</link>
@@ -48,7 +48,43 @@
     </item>
     
     <item>
-      <title>Sincronização de Threads - DeadLocks, Zonas Críticas e Condições de Corrida</title>
+      <title>6. Virtual Threads em Java! Fazendo a sua aplicação voar!</title>
+      <link>https://kaue.cat/posts/concorrencia-java/virtual-threads/</link>
+      <pubDate>Sat, 06 Apr 2024 20:43:03 +0000</pubDate>
+      
+      <guid>https://kaue.cat/posts/concorrencia-java/virtual-threads/</guid>
+      <description>Vamos finalmente entender o Project Loom! Que adiciona as virutal threads no LTS da JDK 21</description>
+    </item>
+    
+    <item>
+      <title>5. CompletableFuture - Dominando o Assíncrono em Java!</title>
+      <link>https://kaue.cat/posts/concorrencia-java/completablefuture/</link>
+      <pubDate>Fri, 05 Apr 2024 20:18:37 +0000</pubDate>
+      
+      <guid>https://kaue.cat/posts/concorrencia-java/completablefuture/</guid>
+      <description>Sabemos como lidar com multiplas threads, evitar race conditions, entendemos pooling e sabemos o porquê devemos usar mecanismos assíncronos, agora, vamos entender a API moderna do JAVA para lidar com comportamentos assíncronos e paralelos.</description>
+    </item>
+    
+    <item>
+      <title>4. Executors, Thread Pools e Futures em Java</title>
+      <link>https://kaue.cat/posts/concorrencia-java/executors-e-threadpools/</link>
+      <pubDate>Thu, 04 Apr 2024 19:42:37 +0000</pubDate>
+      
+      <guid>https://kaue.cat/posts/concorrencia-java/executors-e-threadpools/</guid>
+      <description>Sabemos que threads são recursos caros, e isso é onde o *object pooling brilha*. E respondendo outra pergunta: cade o processamento assíncrono?</description>
+    </item>
+    
+    <item>
+      <title>3. Classes Thread Safe em Java -  Conceito e Introdução</title>
+      <link>https://kaue.cat/posts/concorrencia-java/thread-safe/</link>
+      <pubDate>Mon, 01 Apr 2024 19:25:03 +0000</pubDate>
+      
+      <guid>https://kaue.cat/posts/concorrencia-java/thread-safe/</guid>
+      <description>O JAVA nos traz diversos facilitadores para trabalharmos com concorrência em Java, aqui vamos descobir o que são as classes thread-safe.</description>
+    </item>
+    
+    <item>
+      <title>2. Sincronização de Threads - DeadLocks, Zonas Críticas e Condições de Corrida</title>
       <link>https://kaue.cat/posts/concorrencia-java/desafios/</link>
       <pubDate>Sun, 31 Mar 2024 19:16:03 +0000</pubDate>
       
@@ -81,24 +117,6 @@
       
       <guid>https://kaue.cat/posts/refactors_seguros/</guid>
       <description>Refactors nem sempre são confortáveis de se fazer, principalmente em pontos ou sistemas críticos, ao mexer nesses pontos, é sempre bom ter um plano B</description>
-    </item>
-    
-    <item>
-      <title>Classes Thread Safe em Java -  Conceito e Introdução</title>
-      <link>https://kaue.cat/posts/concorrencia-java/thread-safe/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kaue.cat/posts/concorrencia-java/thread-safe/</guid>
-      <description>O JAVA nos traz diversos facilitadores para trabalharmos com concorrência em Java, aqui vamos descobir o que são as classes thread-safe.</description>
-    </item>
-    
-    <item>
-      <title>Executors, Thread Pools e Futures em Java</title>
-      <link>https://kaue.cat/posts/concorrencia-java/executors-e-threadpools/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kaue.cat/posts/concorrencia-java/executors-e-threadpools/</guid>
-      <description>Sabemos que threads são recursos caros, e isso é onde o *object pooling brilha*. E respondendo outra pergunta: cade o processamento assíncrono?</description>
     </item>
     
   </channel>
