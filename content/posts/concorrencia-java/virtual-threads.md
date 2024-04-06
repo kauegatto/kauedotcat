@@ -1,12 +1,12 @@
 ---
-title: "[WIP] Virtual Threads em Java!"
-date: 2024-03-25T16:43:03+00:00
+title: "6. Virtual Threads em Java! Fazendo a sua aplicação voar!"
+date: 2024-04-06T16:43:03+00:00
 # weight: 1
 aliases: ["/virtual-threads", "loom"]
-tags: ["ARCHITECTURE"]
+tags: "Concorrencia", "JAVA"]
 showToc: true
 TocOpen: false
-draft: true
+draft: false
 hidemeta: false
 comments: true
 description: "Vamos finalmente entender o Project Loom! Que adiciona as virutal threads no LTS da JDK 21"
@@ -32,7 +32,17 @@ editPost:
     Text: "Sugerir Alterações" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
+Seja bem vindo, esse daqui é o quinto de 6 posts sobre concorrência em Java. A série é focada em Java, mas esse post em especial apresenta conceitos relevantes para literalmente todas as linguagens e também não é uma leitura muito extensiva :).
 
+Nosso roteiro é:
+
+1. Threads! Processando em Paralelo e Ganhando Throughput
+2. Sincronização de Threads - DeadLocks, Zonas Críticas e Condições de Corrida
+3. Concorrência, agora melhor - Classes Thread Safe
+4. Executors, Thread Pools e Futures
+5. CompletableFuture
+**6. Virtual Threads**
+   
 # O Artigo
 		
 Primeiro, vamos estabelecer objetivos desse artigo:

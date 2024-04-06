@@ -2,7 +2,6 @@
 title: "Executors, Thread Pools e Futures em Java"
 date: 2024-04-4T19:42:37+00:00
 # weight: 1
-aliases: ["/threadsafe", "/atomic-integer"]
 tags: ["Concorrencia", "JAVA"]
 series: ["Concorrencia em Java!"]
 showToc: true

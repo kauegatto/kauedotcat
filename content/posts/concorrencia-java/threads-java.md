@@ -1,5 +1,5 @@
 ---
-title: "1. Concorrência em Java: Threads! Processando em Paralelo e Ganhando Throughput"
+title: "Concorrência em Java: Threads! Processando em Paralelo e Ganhando Throughput"
 date: 2024-03-29T19:00:03+00:00
 # weight: 1
 aliases: ["/concorrencia-threads"]

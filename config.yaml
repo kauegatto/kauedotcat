@@ -67,7 +67,7 @@ params:
     imageTitle: Eu!
     buttons:
       - name: Posts
-        url: posts
+        url: archives
       - name: Tags
         url: tags
   socialIcons:
