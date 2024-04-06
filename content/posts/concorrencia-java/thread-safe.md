@@ -1,6 +1,6 @@
 ---
-title: "Classes Thread Safe em Java -  Conceito e Introdução"
-date: 2024-04-1T19:25:03+00:00
+title: "3. Classes Thread Safe em Java -  Conceito e Introdução"
+date: 2024-04-01T19:25:03+00:00
 # weight: 1
 aliases: ["/threadsafe", "/atomic-integer"]
 tags: ["Concorrencia", "JAVA"]
@@ -11,7 +11,6 @@ draft: false
 hidemeta: false
 comments: true
 description: "O JAVA nos traz diversos facilitadores para trabalharmos com concorrência em Java, aqui vamos descobir o que são as classes thread-safe."
-disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false
 hideSummary: false

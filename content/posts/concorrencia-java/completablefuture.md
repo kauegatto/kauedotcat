@@ -1,6 +1,6 @@
 ---
-title: "CompletableFuture - Dominando o Assíncrono em Java!"
-date: 2024-04-5T20:18:37+00:00
+title: "5. CompletableFuture - Dominando o Assíncrono em Java!"
+date: 2024-04-05T20:18:37+00:00
 aliases: ["/async", "/completable-future"]
 tags: ["Concorrencia", "JAVA"]
 series: ["Concorrencia em Java!"]
@@ -10,9 +10,8 @@ draft: false
 hidemeta: false
 comments: true
 description: "Sabemos como lidar com multiplas threads, evitar race conditions, entendemos pooling e sabemos o porquê devemos usar mecanismos assíncronos, agora, vamos entender a API moderna do JAVA para lidar com comportamentos assíncronos e paralelos."
-disableHLJS: true # to disable highlightjs
-disableShare: false
 disableHLJS: false
+disableShare: false
 hideSummary: false
 ShowReadingTime: true
 ShowBreadCrumbs: true
@@ -31,6 +30,7 @@ editPost:
     Text: "Sugerir Alterações" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
+
 Seja bem vindo, esse daqui é o quinto de 6 posts sobre concorrência em Java. A série é focada em Java, mas esse post em especial apresenta conceitos relevantes para literalmente todas as linguagens e também não é uma leitura muito extensiva :).
 
 Nosso roteiro é:

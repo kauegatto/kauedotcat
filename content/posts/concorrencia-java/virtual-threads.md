@@ -1,17 +1,15 @@
 ---
 title: "6. Virtual Threads em Java! Fazendo a sua aplicação voar!"
-date: 2024-04-06T16:43:03+00:00
-# weight: 1
+date: 2024-04-06T20:43:03+00:00
 aliases: ["/virtual-threads", "loom"]
-tags: "Concorrencia", "JAVA"]
+tags: ["Concorrencia", "JAVA"]
+series: ["Concorrencia em Java!"]
 showToc: true
 TocOpen: false
 draft: false
 hidemeta: false
 comments: true
 description: "Vamos finalmente entender o Project Loom! Que adiciona as virutal threads no LTS da JDK 21"
-canonicalURL: "https://canonical.url/to/page"
-disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false
 hideSummary: false
@@ -21,18 +19,8 @@ ShowPostNavLinks: true
 ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
-cover:
-    image: "<image path/url>" # image path/url
-    alt: "<alt text>" # alt text
-    caption: "<text>" # display caption under cover
-    relative: false # when using page bundles set this to true
-    hidden: true # only hide on current single page
-editPost:
-    URL: "https://github.com/kauegatto/kauedotcat/content"
-    Text: "Sugerir Alterações" # edit text
-    appendFilePath: true # to append file path to Edit link
 ---
-Seja bem vindo, esse daqui é o quinto de 6 posts sobre concorrência em Java. A série é focada em Java, mas esse post em especial apresenta conceitos relevantes para literalmente todas as linguagens e também não é uma leitura muito extensiva :).
+Seja bem vindo, esse daqui é o último post da infinita série sobre concorrência em Java. A série é focada em Java, mas esse post em especial apresenta conceitos relevantes para literalmente todas as linguagens e também não é uma leitura muito extensiva :).
 
 Nosso roteiro é:
 
@@ -41,7 +29,7 @@ Nosso roteiro é:
 3. Concorrência, agora melhor - Classes Thread Safe
 4. Executors, Thread Pools e Futures
 5. CompletableFuture
-**6. Virtual Threads**
+6. **Virtual Threads**
    
 # O Artigo
 		

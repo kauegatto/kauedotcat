@@ -1,5 +1,5 @@
 ---
-title: "Sincronização de Threads - DeadLocks, Zonas Críticas e Condições de Corrida"
+title: "2. Sincronização de Threads - DeadLocks, Zonas Críticas e Condições de Corrida"
 date: 2024-03-31T19:16:03+00:00
 # weight: 1
 aliases: ["/deadlocks", "/race-conditions", "desafios"]
@@ -12,7 +12,6 @@ hidemeta: false
 comments: true
 description: "Os benefícios associados à programação paralela e concorrente são muitos, mas os perigos também!"
 canonicalURL: "https://canonical.url/to/page"
-disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false
 hideSummary: false

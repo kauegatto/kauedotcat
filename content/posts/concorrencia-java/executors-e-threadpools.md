@@ -1,6 +1,6 @@
 ---
-title: "Executors, Thread Pools e Futures em Java"
-date: 2024-04-4T19:42:37+00:00
+title: "4. Executors, Thread Pools e Futures em Java"
+date: 2024-04-04T19:42:37+00:00
 # weight: 1
 tags: ["Concorrencia", "JAVA"]
 series: ["Concorrencia em Java!"]
@@ -10,9 +10,8 @@ draft: false
 hidemeta: false
 comments: true
 description: "Sabemos que threads são recursos caros, e isso é onde o *object pooling brilha*. E respondendo outra pergunta: cade o processamento assíncrono?"
-disableHLJS: true # to disable highlightjs
-disableShare: false
 disableHLJS: false
+disableShare: false
 hideSummary: false
 ShowReadingTime: true
 ShowBreadCrumbs: true
@@ -31,14 +30,15 @@ editPost:
     Text: "Sugerir Alterações" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
+
 Seja bem vindo, esse daqui é o quarto de 6 posts sobre concorrência em Java. Nosso roteiro é:
 
 1. Threads! Processando em Paralelo e Ganhando Throughput
 2. Sincronização de Threads - DeadLocks, Zonas Críticas e Condições de Corrida
 3. Concorrência, agora melhor - Classes Thread Safe
 **4. Executors, Thread Pools e Futures**
-1. CompletableFuture
-2. Virtual Threads
+5. CompletableFuture
+6. Virtual Threads
 ---
 # Introdução
 Sabemos que Threads do JAVA são Wrappers em torno de threads do SO, agora o importante de sabermos com essa informação é termos ciência que threads do SO são **pesadas**, portanto, criá-las a todo momento é inviável, mas é isso que aprendemos até então no [[1. Threads! Processando em Paralelo e Ganhando Throughput]].
