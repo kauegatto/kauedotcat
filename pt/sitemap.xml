@@ -147,5 +147,7 @@
     <loc>https://kaue.cat/categorias/</loc>
   </url><url>
     <loc>https://kaue.cat/posts/concorrencia-java/thread-safe/</loc>
+  </url><url>
+    <loc>https://kaue.cat/posts/concorrencia-java/executors-e-threadpools/</loc>
   </url>
 </urlset>

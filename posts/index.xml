@@ -137,5 +137,14 @@
       <description>O JAVA nos traz diversos facilitadores para trabalharmos com concorrência em Java, aqui vamos descobir o que são as classes thread-safe.</description>
     </item>
     
+    <item>
+      <title>Executors, Thread Pools e Futures em Java</title>
+      <link>https://kaue.cat/posts/concorrencia-java/executors-e-threadpools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kaue.cat/posts/concorrencia-java/executors-e-threadpools/</guid>
+      <description>Sabemos que threads são recursos caros, e isso é onde o *object pooling brilha*. E respondendo outra pergunta: cade o processamento assíncrono?</description>
+    </item>
+    
   </channel>
 </rss>
