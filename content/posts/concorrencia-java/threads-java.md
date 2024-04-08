@@ -334,3 +334,7 @@ public static void main(String[] args) {
 > _Melhor, maior, e o mais completo curso de Java em português grátis de toda Internet está de volta._
 > [https://www.youtube.com/playlist?list=PL62G310vn6nFIsOCC0H-C2infYgwm8SWW](https://www.youtube.com/playlist?list=PL62G310vn6nFIsOCC0H-C2infYgwm8SWW)>)
 
+
+> [📚] **System Design: Concorrência e Paralelismo**
+> _Post brabíssimo sobre a base de concorrência e paralelismo_
+> [https://fidelissauro.dev/concorrencia-paralelismo/](https://fidelissauro.dev/concorrencia-paralelismo/)
