@@ -35,7 +35,7 @@ editPost:
 
 Seja bem vindo, esse daqui é o primeiro de 6 posts sobre concorrência em Java. Nosso roteiro é:
 
-**1. Threads! Processando em Paralelo e Ganhando Throughput**
+1. **Threads! Processando em Paralelo e Ganhando Throughput**
 2. Sincronização de Threads - DeadLocks, Zonas Críticas e Condições de Corrida
 3. Concorrência, agora melhor - Classes Thread Safe
 4. Executors, Thread Pools e Futures
@@ -52,10 +52,35 @@ Uma das principais razões para usar múltiplas threads é melhorar o desempenho
 
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/penw7eg1a1bfdvjuuew8.png)
 
-No entanto, programar com threads também traz desafios, como a necessidade de lidar com concorrência (quando várias threads tentam acessar ou modificar os mesmos recursos ao mesmo tempo) e a possibilidade de erros difíceis de depurar (como as condições de corrida), pois os resultados de um mesmo código não serão necessariamente os mesmos (não determinísticos).
+No entanto, programar com threads também traz desafios, como a necessidade de lidar com concorrência (condiçõe de corridas, quando várias threads tentam acessar ou modificar os mesmos recursos ao mesmo tempo), possivelmente gerando erros difíceis de depurar, pois os resultados de um mesmo código não serão necessariamente os mesmos (não determinísticos / não idempotentes).
+
+# Estabelecendo uma base
+> [❗] Os exemplos a seguir são fruto do Blog do [Matheus Fidelis](https://fidelissauro.dev/concorrencia-paralelismo/)! Por serem extremamente bem escritos e intuitivos, prefiro nem mexer. Dêem uma atenção lá para ter uma base melhor em assuntos de concorrência em qualquer linguagem.
+
+## Concorrência
+
+Imagine que você está preparando um churrasco sozinho. Você é responsável por organizar a geladeira, fazer os cortes de carne, preparar os vegetais para os amigos vegetarianos, fazer caipirinhas e gelar a cerveja. Você alterna entre essas tarefas, trabalhando um pouco em cada uma, apesar de ser responsável por todas elas.
+
+Este cenário é um exemplo de concorrência, onde você está gerenciando várias tarefas, mas não necessariamente trabalhando em mais de uma delas simultaneamente. Você se alterna entre as tarefas, criando a impressão de que tudo está progredindo ao mesmo tempo.
+
+Mais detalhes e exemplos de código no [post original](https://fidelissauro.dev/concorrencia-paralelismo)
+
+## Paralelismo
+
+Ainda estamos no exemplo do churrasco. Desta vez você tem amigos para ajudar: um corta a carne, outro acende a churrasqueira, outro gela a cerveja e mais um faz a caipirinha. Todas essas tarefas estão ocorrendo em paralelo, com cada pessoa responsável por uma parte do processo.
+
+Isso ilustra o paralelismo. Múltiplas tarefas e instruções ocorrendo simultaneamente, executadas por múltiplos núcleos de processadores.
+
+Mais detalhes e exemplos de código no [post original](https://fidelissauro.dev/concorrencia-paralelismo)
+
+## Nessa série
+
+Nessa série de artigos, por vezes direi concorrência, por vezes apenas paralelismo. Note que aqui o foco é o paralelismo, que por via de regra é concorrente, e não concorrência, que nem sempre é paralelizada. O foco na palavra "Concorrência" acontece pricipalmente pelo fato do pacote que lida com paralelismo também ser o mesmo que lida com concorrência, sendo o `java.util.concurrent` (isso faz sentido porque mesmo um código multithreaded pode ser executado por uma única CPU realizando incontáveis trocas de contexto dando a **impressão** de paralelismo)
+
 # O multithreading ajuda ou não?
 
 **1. Operações de I/O:**
+
 Quando um programa precisa realizar operações de entrada/saída -- I/O (e elas são o gargalo), como leitura/gravação de arquivos, comunicação com bancos de dados ou solicitações de rede, <mark style="background: #D2B3FFA6;">há frequentemente momentos em que a CPU fica ociosa</mark>, esperando que os dados sejam lidos ou escritos.
 Nessa situação, se uma nova thread tomasse conta da situação, ela não seria mais executada pelo processador enquanto estivesse ociosa, pois aconteceria o que chamamos de troca de contexto, que é basicamente fazer com que outra thread seja processada. Isso permite que outras threads que necessitem de processamento real tenham suas operações executadas pelos núcleos da CPU, ou até mesmo lançar (ou usar) mais threads para já lançar outras chamadas que também exigem esse tempo de espera, conhecidas como <mark style="background: #D2B3FFA6;">bloqueantes</mark>. Isso ajuda a aproveitar melhor o tempo da CPU, **melhorando a eficiência geral do programa.**
 Imagine um contexto onde você precisa ler dois arquivos .txt, essa operação poderia ser realizada paralelamente se lançássemos duas threads, uma para ler cada arquivo, sendo cada uma processada em um núcleo, diminuindo o tempo de execução essencialmente pela metade

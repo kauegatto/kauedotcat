@@ -38,7 +38,7 @@ Seja bem vindo, esse daqui é o segundo de 6 posts sobre concorrência em Java. 
 Nosso roteiro é:
 
 1. Threads! Processando em Paralelo e Ganhando Throughput
-**2. Sincronização de Threads - DeadLocks, Zonas Críticas e Condições de Corrida**
+2. **Sincronização de Threads - DeadLocks, Zonas Críticas e Condições de Corrida**
 3. Concorrência, agora melhor - Classes Thread Safe
 4. Executors, Thread Pools e Futures
 5. CompletableFuture
@@ -61,6 +61,7 @@ Quando threads diferentes acessam um mesmo recurso, acontece o que chamamos de _
 Note que ambos vão sacar dinheiro ao mesmo tempo quando tem 10 reais an conta, caindo na condição da balance ser igual a quantia, apesar disso, como ambos estão correndo e acessando uma mesma _zona crítica_, acontece uma inconsistência, onde uma thread desconta 10 de 10, e o saldo fica 0, e a outra desconta 10 de 0, deixando o saldo negativo.
 
 Como podemos resolver isso?!
+
 ## Operações Atômicas
 
 Uma operação atômica, (na programação concorrente e/ou paralela), é uma operação indivisível que é executada em sua totalidade ou não é executada de forma alguma. Isso significa que, quando uma operação é marcada como atômica, **==ela é tratada como uma unidade indivisível de execução, mesmo em um ambiente com múltiplas threads ou processos concorrentes.==** Isso é importante pois ao trabalharmos com programação paralela ou concorrente, tentamos dividir a carga em partes menores, enviadas para as threads

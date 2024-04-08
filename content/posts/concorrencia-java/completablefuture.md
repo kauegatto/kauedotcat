@@ -39,7 +39,7 @@ Nosso roteiro é:
 2. Sincronização de Threads - DeadLocks, Zonas Críticas e Condições de Corrida
 3. Concorrência, agora melhor - Classes Thread Safe
 4. Executors, Thread Pools e Futures
-**5. CompletableFuture**
+5. **CompletableFuture**
 6. Virtual Threads
 
 # Introdução e "Join"
