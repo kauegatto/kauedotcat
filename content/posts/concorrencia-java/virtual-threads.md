@@ -538,4 +538,6 @@ Com structured concurrency, criamos um escopo onde tarefas irão rodar de maneir
 
 [Java Virtual Threads](https://medium.com/codex/java-virtual-threads-9fad6c362890) - Esse não foi usado diretamente no texto, mas foi uma boa fonte de conhecimentos.
 
+[System Design - Concorrência e paralelismo](https://fidelissauro.dev/concorrencia-paralelismo/)
+
 https://www.youtube.com/watch?v=YQ6EpIk7KgY - Pelo engenheiro chefe responsável pela concepção da JEP das virtual threads.
