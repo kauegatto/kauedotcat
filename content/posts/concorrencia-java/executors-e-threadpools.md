@@ -36,7 +36,7 @@ Seja bem vindo, esse daqui é o quarto de 6 posts sobre concorrência em Java. N
 1. Threads! Processando em Paralelo e Ganhando Throughput
 2. Sincronização de Threads - DeadLocks, Zonas Críticas e Condições de Corrida
 3. Concorrência, agora melhor - Classes Thread Safe
-**4. Executors, Thread Pools e Futures**
+4. **Executors, Thread Pools e Futures**
 5. CompletableFuture
 6. Virtual Threads
 ---
