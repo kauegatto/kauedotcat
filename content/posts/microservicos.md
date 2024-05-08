@@ -21,7 +21,7 @@ ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 cover:
-    image: "<image path/url>" # image path/url
+    image: "https://th.bing.com/th/id/OIG3.yHCJxyinUPawgW65r1mp?pid=ImgGn" # image path/url
     alt: "<alt text>" # alt text
     caption: "<text>" # display caption under cover
     relative: false # when using page bundles set this to true
@@ -47,6 +47,7 @@ Do lado de fora, um microserviço é uma caixa preta, exceto por seus endpoints 
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ja2qxphiurwbuhr1uq61.png)
 
 Como microserviços se baseiam muito na ocultação de informação, expondo somente o necessário através de interfaces externas, permitem uma maior visão no que pode ou não mudar facilmente. O código interno de um microserviço pode mudar a vontade desde que as interfaces externas não mudem seu comportamento.
+
 ---
 
 # Pontos-Chave sobre microserviços!
