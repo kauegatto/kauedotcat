@@ -164,15 +164,25 @@ Respeitar a consistência de dados em um sistema muito mais distribuído, com mu
 - Empresas as quais o produto não está pensado, está muito sucetível a mudanças
     - Vai lascar bastante com os boundaries
 
-1. Microservices need to talk to each other through n/w packets. Monolith is mostly IPC and hence faster.
-2. Monitoring all the Microservices (100s) and checking their health to ensure smooth running is a pain.
-3. Monolith need not worry about consistency since they primarily operate on the same data store.
-4. Monolith in general have better latency since the non-determinism of microservices is not present
-
+## Outros pontos negativos 
+* Os microsserviços precisam se comunicar entre si por meio de pacotes de rede. Um monolito usa principalmente IPC (Comunicação entre Processos) e, portanto, é mais rápido.
+* Monitorar todos os microsserviços (muitas vezes, centenas) e verificar sua saúde para garantir um funcionamento suave é uma dor de cabeça.
+* Monólitos, via de regra, não precisa se preocupar com consistência.
+  
 # Onde eles funcionam bem?
 
 - Empresas com diversos desenvolvedores
-    - Permite que um dev ou um time não entre no caminho do outro;
+  - Permite que um dev ou um time não entre no caminho do outro;
+  - Permite que seja usado o ponto positivo de cada dev, abordando ferramentas e tecnologias diferentes
 - Empresas que possuem um aporte inicial bom de dinheiro
 - Software que precisa da possibilidade de escalar, e idealmente para diversas regiões do mundo
 - Softwares que precisam de flexibilidade.
+
+# Minha experiência
+
+Quando trabalhei com a arquitetura de microserviços na AMBEV, era uma experiência relativamente tranquila para nós devs, apesar disso, trazia algumas experiências clássicas de seu uso, que não eram boas: 
+1. Deploy de múltiplos serviços - Deployar mais de um serviço, criar um plano de deploy e monitoramento para cada. Não acho que preciso falar muito sobre
+2. Configurações - Empresas excessivamente grandes são burocráticas, eventualmente precisávamos mudar uma tech: Implementar uma doc diferente, mudar o banco de dados, mudar quem é o gestor em um helm da vida - Tinhamos que replicar isso para os *n* serviços que tomávamos conta
+3. Problemas de comunicação - Precisamos manualmente adicionar e permitir chamada intra-cluster entre serviços específicos, não era uma dor de cabeça de verdade, mas é uma complexidade.
+   
+No geral, acho que foi uma experiência totalmente positiva, não teria como deployarmos um monolito sempre que um update saísse, seria horrível, trabalhar "isoladamente" era muito bom também. Vale lembrar que só não houve tanto sofrimento pois também tinhamos uma equipe de DevOps responsável por nos livrar de diversos problemas.
