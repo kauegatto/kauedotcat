@@ -10,7 +10,7 @@
       <link>https://kaue.cat/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 06 Apr 2024 20:43:03 +0000</lastBuildDate><atom:link href="https://kaue.cat/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 May 2024 20:14:12 +0000</lastBuildDate><atom:link href="https://kaue.cat/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Arquitetura de Software para devs: MVC, Hexagonal, DDD</title>
       <link>https://kaue.cat/posts/software-architecture-basics/</link>
@@ -63,6 +63,15 @@
       
       <guid>https://kaue.cat/posts/integracao_testcontainers/</guid>
       <description>Testcontainers é um framework de código aberto para fornecer instâncias descartáveis e leves de bancos de dados, message brokers, browsers ou praticamente qualquer coisa que possa ser executada em um container Docker.</description>
+    </item>
+    
+    <item>
+      <title>O que são microserviços? Para que servem e quando usar?</title>
+      <link>https://kaue.cat/posts/microservicos/</link>
+      <pubDate>Tue, 07 May 2024 20:14:12 +0000</pubDate>
+      
+      <guid>https://kaue.cat/posts/microservicos/</guid>
+      <description>Introdução boa sobre microserviços! Aqui temos 🤓☝️</description>
     </item>
     
     <item>
