@@ -8,6 +8,9 @@
     <loc>https://kaue.cat/posts/solid/</loc>
     <lastmod>2023-11-12T16:30:03+00:00</lastmod>
   </url><url>
+    <loc>https://kaue.cat/posts/aws/localstack/</loc>
+    <lastmod>2024-10-10T16:30:03+00:00</lastmod>
+  </url><url>
     <loc>https://kaue.cat/posts/java-rabbit/java_rabbitmq_parte2/</loc>
     <lastmod>2023-11-12T19:30:03+00:00</lastmod>
   </url><url>
@@ -20,11 +23,17 @@
     <loc>https://kaue.cat/posts/integracao_testcontainers/</loc>
     <lastmod>2023-11-20T05:55:03+00:00</lastmod>
   </url><url>
-    <loc>https://kaue.cat/tags/architecture/</loc>
-    <lastmod>2024-05-07T20:14:12+00:00</lastmod>
+    <loc>https://kaue.cat/tags/aws/</loc>
+    <lastmod>2024-10-10T16:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://kaue.cat/series/aws/</loc>
+    <lastmod>2024-10-10T16:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://kaue.cat/tags/iac/</loc>
+    <lastmod>2024-10-10T16:30:03+00:00</lastmod>
   </url><url>
     <loc>https://kaue.cat/</loc>
-    <lastmod>2024-05-07T20:14:12+00:00</lastmod>
+    <lastmod>2024-10-10T16:30:03+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -36,14 +45,8 @@
                 href="https://kaue.cat/"
                 />
   </url><url>
-    <loc>https://kaue.cat/tags/microservicos/</loc>
-    <lastmod>2024-05-07T20:14:12+00:00</lastmod>
-  </url><url>
-    <loc>https://kaue.cat/posts/microservicos/</loc>
-    <lastmod>2024-05-07T20:14:12+00:00</lastmod>
-  </url><url>
     <loc>https://kaue.cat/posts/</loc>
-    <lastmod>2024-05-07T20:14:12+00:00</lastmod>
+    <lastmod>2024-10-10T16:30:03+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -55,7 +58,22 @@
                 href="https://kaue.cat/posts/"
                 />
   </url><url>
+    <loc>https://kaue.cat/series/</loc>
+    <lastmod>2024-10-10T16:30:03+00:00</lastmod>
+  </url><url>
     <loc>https://kaue.cat/tags/</loc>
+    <lastmod>2024-10-10T16:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://kaue.cat/tags/terraform/</loc>
+    <lastmod>2024-10-10T16:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://kaue.cat/tags/architecture/</loc>
+    <lastmod>2024-05-07T20:14:12+00:00</lastmod>
+  </url><url>
+    <loc>https://kaue.cat/tags/microservicos/</loc>
+    <lastmod>2024-05-07T20:14:12+00:00</lastmod>
+  </url><url>
+    <loc>https://kaue.cat/posts/microservicos/</loc>
     <lastmod>2024-05-07T20:14:12+00:00</lastmod>
   </url><url>
     <loc>https://kaue.cat/posts/concorrencia-java/virtual-threads/</loc>
@@ -68,9 +86,6 @@
     <lastmod>2024-04-06T20:43:03+00:00</lastmod>
   </url><url>
     <loc>https://kaue.cat/tags/java/</loc>
-    <lastmod>2024-04-06T20:43:03+00:00</lastmod>
-  </url><url>
-    <loc>https://kaue.cat/series/</loc>
     <lastmod>2024-04-06T20:43:03+00:00</lastmod>
   </url><url>
     <loc>https://kaue.cat/posts/concorrencia-java/completablefuture/</loc>

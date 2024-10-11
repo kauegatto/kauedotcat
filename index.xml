@@ -10,7 +10,7 @@
       <link>https://kaue.cat/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 07 May 2024 20:14:12 +0000</lastBuildDate><atom:link href="https://kaue.cat/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Oct 2024 16:30:03 +0000</lastBuildDate><atom:link href="https://kaue.cat/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Arquitetura de Software para devs: MVC, Hexagonal, DDD</title>
       <link>https://kaue.cat/posts/software-architecture-basics/</link>
@@ -27,6 +27,15 @@
       
       <guid>https://kaue.cat/posts/solid/</guid>
       <description>Um post aprofundado sobre SOLID, com inúmeros exemplos de código e com um aprofundamento maior que o normal.</description>
+    </item>
+    
+    <item>
+      <title>[WIP][AWS] Configurando sua própria AWS com LocalStack</title>
+      <link>https://kaue.cat/posts/aws/localstack/</link>
+      <pubDate>Thu, 10 Oct 2024 16:30:03 +0000</pubDate>
+      
+      <guid>https://kaue.cat/posts/aws/localstack/</guid>
+      <description>Não é uma surpresa para a maioria que usar a AWS pode ser perigoso no seu bolso, provisionar um recurso e esquecer é um risco, usar uma senha fraca e ser invadido por bots chineses também... Portanto, configure sua própria AWS</description>
     </item>
     
     <item>
