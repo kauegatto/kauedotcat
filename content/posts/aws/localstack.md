@@ -1,6 +1,6 @@
 ---
 title: "[WIP][AWS] Configurando sua própria AWS com LocalStack"
-date: 2024-11-09T23:45:03+00:00
+date: 2024-10-10T16:30:03+00:00
 weight: 2
 aliases: ["/localstack"]
 tags: ["AWS","IAC","TERRAFORM"]
