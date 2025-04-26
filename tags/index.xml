@@ -10,7 +10,25 @@
       <link>https://kaue.cat/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 10 Oct 2024 16:30:03 +0000</lastBuildDate><atom:link href="https://kaue.cat/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Apr 2025 17:00:03 +0000</lastBuildDate><atom:link href="https://kaue.cat/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ARCHITECTURE</title>
+      <link>https://kaue.cat/tags/architecture/</link>
+      <pubDate>Fri, 25 Apr 2025 17:00:03 +0000</pubDate>
+      
+      <guid>https://kaue.cat/tags/architecture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>EDA</title>
+      <link>https://kaue.cat/tags/eda/</link>
+      <pubDate>Fri, 25 Apr 2025 17:00:03 +0000</pubDate>
+      
+      <guid>https://kaue.cat/tags/eda/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>AWS</title>
       <link>https://kaue.cat/tags/aws/</link>
@@ -35,15 +53,6 @@
       <pubDate>Thu, 10 Oct 2024 16:30:03 +0000</pubDate>
       
       <guid>https://kaue.cat/tags/terraform/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ARCHITECTURE</title>
-      <link>https://kaue.cat/tags/architecture/</link>
-      <pubDate>Tue, 07 May 2024 20:14:12 +0000</pubDate>
-      
-      <guid>https://kaue.cat/tags/architecture/</guid>
       <description></description>
     </item>
     
